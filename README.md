@@ -9,8 +9,10 @@ Note (ご使用上のご注意)
 * このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します。
 * The documents assume the Unix & macOS environment, not Windows, including Unix knowledge.
 * UnixおよびmacOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実用的な使用方法を紹介します。
-* I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be able to apply for a job open position in future.
-* プログラミング言語を勉強しながら同時に関連する英語も勉強して海外でプログラマーとして働きたい人を応援します。
+* I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be ambicious to work in the world in future.
+* プログラミング言語を勉強しながら同時に関連する英語も勉強して将来海外でプログラマーとして働きたい人を応援します。
+* In contract, I would be very happy if you would like to learn Japanese + to work in Japan with learning Ruby.
+* 逆に、日本（文化、日本語）に興味があって、Rubyを勉強して将来日本で働きたい（住みたい）、という人がいるならとても嬉しいです。
 
 Contents
 =================
@@ -37,7 +39,7 @@ TD
 
 ## To be continued (続く)
 
-BB (Brainstorming-Bullets)
+BB
 
 Light-side (初心者向け）
 * For Beginners (初級編)
