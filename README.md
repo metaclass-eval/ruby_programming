@@ -55,6 +55,8 @@ Light-side (初心者向け）
 	* Text data editing (テキストデータ編集)
 
 Red-side (ちょっと萌えてきた人向け)
+* How to use Github in Black (Githubのblackな使い方)
+* How to use Redmine in Black (Redmineのblackな使い方)
 * Bioinformatics (生物情報学編)
 * Statistics (統計処理編)
 * Machine Learning (機械学習編)
