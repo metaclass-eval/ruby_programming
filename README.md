@@ -39,9 +39,6 @@ TD
 
 BB (Brainstorming-Bullets)
 
-A Road to a Dark Rubyist (暗黒Ruby使いへの道)
-* Road map
-
 Light-side (初心者向け）
 * For Beginners (初級編)
 	* Ruby The most important concepts Top 10 (必須概念トップ10)
@@ -61,7 +58,10 @@ Red-side (ちょっと萌えてきた人向け)
 * Machine Learning (機械学習編)
 * Evolution Simulation (進化学編)
 
-Dark-side (玄人向け）
+Dark-side (ダークサイドに堕ちたい人向け）
+* A Road to a black Rubyist (黒Ruby使いへの道)
+	* Rubyist vs. Ruby hacker (RubyistとRuby hackerの違い)
+	* Dark road map
 * Bootstrap (ブートストラップのお話）
 * The Class (Rubyのクラスのお話)
 * Meta-programming (メタプログラミング)
@@ -76,5 +76,6 @@ Dark-side (玄人向け）
 * BB: Brainstroming Bullets 
 * TDBB: TD + BB
 * PD: Pending
+* TOC: the position where the Table Of Contents will be inserted
 
 
