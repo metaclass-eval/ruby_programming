@@ -1,5 +1,5 @@
 # Ruby Programming -yet another tutorial-
-(*Ruby プログラミング -もう一つのチュートリアル-*)
+(Ruby プログラミング -もう一つのチュートリアル-)
 
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
 * 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/jp
@@ -7,9 +7,9 @@
 
 Note (ご使用上のご注意)
 * This site describe 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner
-* *このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します*
+* このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します
 * The documents assume the macOS environment, not Windows, including Unix knowledge
-* *macOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実際的な使用方法を紹介します*
+* macOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実際的な使用方法を紹介します
 
 Contents
 =================
@@ -37,23 +37,23 @@ TD
 ## To be continued (続く)
 
 BB (Brainstorming-Bullets)
-* 初級編
- * Ruby 必須概念 Top 10
- * Ruby 必須文法 Top 10
- * Ruby 頻出熟語 Top 10
-* プログラミング言語学
- * 歴史編
- * 哲学編
- * 比較言語学編
-* 実用編
- * バッチスクリプト作成
- * テキストデータ編集
-* 生物情報学編
- * DNAデータ
+* For Beginners (初級編)
+ * Ruby The most important concepts Top 10 (必須概念トップ10)
+ * Ruby The most important grammar Top 10 (必須文法トップ10)
+ * Ruby The most frequently used Idioms Top 10 (頻出熟語トップ10)
+* Programming Linguistics (プログラミング言語学)
+ * History (歴史編)
+ * Philosophy (哲学編)
+ * Comparative linguistics (比較言語学編)
+* Practical Programming (実用編)
+ * Making bash script by Ruby script (バッチスクリプト作成)
+ * Text data editing (テキストデータ編集)
+* Bioinformatics (生物情報学編)
+ * DNA data (DNAデータ)
  * BioRuby
-* 統計処理編
-* 機械学習編
-* 進化シミュレーション編
+* Statistics (統計処理編)
+* Machine Learning (機械学習編)
+* Evolution Simulation (進化学編)
 
 ## Abbreviations
 
