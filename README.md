@@ -37,23 +37,34 @@ TD
 ## To be continued (続く)
 
 BB (Brainstorming-Bullets)
+
+* Light-side (初心者向け）
 * For Beginners (初級編)
- * Ruby The most important concepts Top 10 (必須概念トップ10)
- * Ruby The most important grammar Top 10 (必須文法トップ10)
- * Ruby The most frequently used Idioms Top 10 (頻出熟語トップ10)
+	* Ruby The most important concepts Top 10 (必須概念トップ10)
+	* Ruby The most important grammar Top 10 (必須文法トップ10)
+	* Ruby The most frequently used Idioms Top 10 (頻出熟語トップ10)
 * Programming Linguistics (プログラミング言語学)
- * History (歴史編)
- * Philosophy (哲学編)
- * Comparative linguistics (比較言語学編)
+	* History (歴史編)
+	* Philosophy (哲学編)
+	* Comparative linguistics (比較言語学編)
 * Practical Programming (実用編)
- * Making bash script by Ruby script (バッチスクリプト作成)
- * Text data editing (テキストデータ編集)
+	* Making bash script by Ruby script (バッチスクリプト作成)
+	* Text data editing (テキストデータ編集)
 * Bioinformatics (生物情報学編)
- * DNA data (DNAデータ)
- * BioRuby
+	* DNA data (DNAデータ)
+	* BioRuby
 * Statistics (統計処理編)
 * Machine Learning (機械学習編)
 * Evolution Simulation (進化学編)
+
+* Dark-side (玄人向け）
+	* Bootstrap (ブートストラップのお話）
+	* The Class (Rubyのクラスのお話)
+	* Meta-programming (メタプログラミング)
+	  * Open class + Mokey patching (お猿さん的応急処置)
+		* Block + Lambda (ブロックとラムダ関数)
+		* Recursive function + class (再帰関数と再帰クラス)
+		* Dynamical definition + dispatching (動的定義と呼び出し)
 
 ## Abbreviations
 
