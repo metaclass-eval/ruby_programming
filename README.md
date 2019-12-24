@@ -4,12 +4,13 @@
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
 * 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/jp
 
-
 Note (ご使用上のご注意)
-* This site describe 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner
-* このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します
-* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge
-* UnixおよびmacOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実用的な使用方法を紹介します
+* This site describe 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner.
+* このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します。
+* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge.
+* UnixおよびmacOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実用的な使用方法を紹介します。
+* I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be able to apply for a job open position in future.
+* プログラミング言語を勉強しながら同時に関連する英語も勉強して海外でプログラマーとして働きたい人を応援します。
 
 Contents
 =================
