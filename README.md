@@ -8,8 +8,8 @@
 Note (ご使用上のご注意)
 * This site describe 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner
 * このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します
-* The documents assume the macOS environment, not Windows, including Unix knowledge
-* macOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実際的な使用方法を紹介します
+* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge
+* UnixおよびmacOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実用的な使用方法を紹介します
 
 Contents
 =================
@@ -38,7 +38,10 @@ TD
 
 BB (Brainstorming-Bullets)
 
-* Light-side (初心者向け）
+A Road to a Dark Rubyist (暗黒Ruby使いへの道)
+* Road map
+
+Light-side (初心者向け）
 * For Beginners (初級編)
 	* Ruby The most important concepts Top 10 (必須概念トップ10)
 	* Ruby The most important grammar Top 10 (必須文法トップ10)
@@ -50,21 +53,21 @@ BB (Brainstorming-Bullets)
 * Practical Programming (実用編)
 	* Making bash script by Ruby script (バッチスクリプト作成)
 	* Text data editing (テキストデータ編集)
+
+Red-side (ちょっと萌えてきた人向け)
 * Bioinformatics (生物情報学編)
-	* DNA data (DNAデータ)
-	* BioRuby
 * Statistics (統計処理編)
 * Machine Learning (機械学習編)
 * Evolution Simulation (進化学編)
 
-* Dark-side (玄人向け）
-	* Bootstrap (ブートストラップのお話）
-	* The Class (Rubyのクラスのお話)
-	* Meta-programming (メタプログラミング)
-	  * Open class + Mokey patching (お猿さん的応急処置)
-		* Block + Lambda (ブロックとラムダ関数)
-		* Recursive function + class (再帰関数と再帰クラス)
-		* Dynamical definition + dispatching (動的定義と呼び出し)
+Dark-side (玄人向け）
+* Bootstrap (ブートストラップのお話）
+* The Class (Rubyのクラスのお話)
+* Meta-programming (メタプログラミング)
+  * Open class + Mokey patching (お猿さん的応急処置)
+	* Block + Lambda (ブロックとラムダ関数)
+	* Recursive function + class (再帰関数と再帰クラス)
+	* Dynamical definition + dispatching (動的定義と呼び出し)
 
 ## Abbreviations
 
