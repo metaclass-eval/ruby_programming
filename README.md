@@ -35,7 +35,7 @@ TD
 
 BB
 
-Light-side (初心者向け）
+Light-side (真面目な初心者向け）
 * For Beginners (初級編)
 	* Ruby The most important concepts Top 10 (必須概念トップ10)
 	* Ruby The most important grammar Top 10 (必須文法トップ10)
@@ -51,9 +51,10 @@ Light-side (初心者向け）
 Red-side (ちょっと萌えてきた人向け)
 * How to use Github in Black (Githubのblackな使い方)
 * How to use Redmine in Black (Redmineのblackな使い方)
-* Bioinformatics (生物情報学編)
+* How to use Ruby on Rails in Black (Ruby on Railsのblackな使い方)
 * Statistics (統計処理編)
 * Machine Learning (機械学習編)
+* Bioinformatics (生物情報学編)
 * Evolution Simulation (進化学編)
 
 Dark-side (ダークサイドに堕ちたい人向け）
