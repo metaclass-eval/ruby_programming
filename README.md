@@ -17,23 +17,21 @@ Note (ご使用上のご注意)
 Contents
 =================
 
-* [Ruby Programming \-yet another tutorial\-](#ruby-programming--yet-another-tutorial-)
-* [Contents](#contents)
-  * [1\. What is Programming language? (プログラミング言語とは何か?)](#1-what-is-programming-language-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
-  * [2\. Compare with other languages (他のプログラミング言語との比較)](#2-compare-with-other-languages-%E4%BB%96%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83)
-  * [3\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#3-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
+* [1\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#1-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
+* [2\. What is Programming language? (プログラミング言語とは何か?)](#2-what-is-programming-language-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
+* [3\. Compare with other languages (他のプログラミング言語との比較)](#3-compare-with-other-languages-%E4%BB%96%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
-## 1. What is Programming language? (プログラミング言語とは何か?)
+## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
 TD
 
-## 2. Compare with other languages (他のプログラミング言語との比較)
+## 2. What is Programming language? (プログラミング言語とは何か?)
 
 TD
 
-## 3. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
+## 3. Compare with other languages (他のプログラミング言語との比較)
 
 TD
 
@@ -80,6 +78,6 @@ Dark-side (ダークサイドに堕ちたい人向け）
 * BB: Brainstroming Bullets 
 * TDBB: TD + BB
 * PD: Pending
-* TOC: the position where the Table Of Contents will be inserted
-
-
+* TOC: the place where the Table Of Contents will be inserted
+* []: the place where a reference will be inserted
+* IMG: the place where a picture/figure will be inserted
