@@ -1,5 +1,5 @@
 
-Table of Contents
+# 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 =================
 
 * [1\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#1-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
@@ -8,12 +8,9 @@ Table of Contents
   * [1\.3\. Run (実行)](#13-run-%E5%AE%9F%E8%A1%8C)
 * [2\. Summary (まとめ)](#2-summary-%E3%81%BE%E3%81%A8%E3%82%81)
 
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 *このチュートリアルは約 **5** 分で終わります*
-
 ----
-# 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
 コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには
 
