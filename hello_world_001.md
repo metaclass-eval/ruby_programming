@@ -41,8 +41,8 @@ $ echo 'print "Hello, World!"' > hello_world.rb
 Note
 * 最初の「$」 (ドル記号) はタイプする必要はありません。
 * この **$** はUnixで主に使われるプロンプト（コマンド入力待機状態）を表す記号です。
-* echoは画面に文字列を表示するUnixコマンドです。
-* echo以後、**""** (ダブルクォーテーション) で囲まれた文字列を次の行に表示します。
+* **echo** は画面に文字列を表示するUnixコマンドです。
+* **echo** 以後、**""** (ダブルクォーテーション) で囲まれた文字列を次の行に表示します。
 * **>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。
 * もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。
 * ファイルが作成されたかどうかを確認するには **ls** とコマンドをタイプします。
@@ -60,8 +60,8 @@ $ open .
 これで、Rubyプログラミングコード (ソースコード) が完成しました。
 
 Note
-* 習慣として、Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています。
-* hello_world.rbは*テキストデータ*になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。
+* Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。
+* **hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。
 
 ## 1.3. Run (実行)
 
@@ -89,7 +89,7 @@ Hello, World!
 1. echoコマンドを使ってRubyソースコードを作成しました。
 2. 作ったソースコードを実行して **Hello, World!** と画面に表示しました。
 
-![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
+![hello_world](https://github.com/metaclass-eval/ruby_programming/blob/master/png/hello_world.png)
 
 
 お疲れ様でした。
