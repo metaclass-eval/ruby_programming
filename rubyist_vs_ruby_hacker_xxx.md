@@ -14,7 +14,7 @@ The person who
 * writes an email to thank to matz (rubyの作者に励ましのお便りを書く人)
 * matz-san (rubyの作者)
 
-# 2. Ruby hacker
+# 2. Ruby hacker
 
 The person who
 * develops a module of ruby (rubyの拡張モジュールを書く人)
@@ -24,7 +24,7 @@ The person who
 * make a complicated ruby code that no one understand (rubyで他人が見てもわけが分からないスクリプトを書く人)
 * matyz-san (rubyの作者)
 
-# 3. Black Rubyist
+# 3. Black Rubyist
 
 *by Metaclass Eval*
 
