@@ -10,7 +10,7 @@ Table of Contents
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
-*このチュートリアルは約5分で終わります*
+*このチュートリアルは約 **5** 分で終わります*
 
 ----
 # 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
