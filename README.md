@@ -1,14 +1,15 @@
 # Ruby Programming -yet another tutorial-
 (Ruby プログラミング -もう一つのチュートリアル-)
 
+TD
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
 * 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/jp
 
 Note (ご使用上のご注意)
-* This site describe 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語の習得を一から解説します。)
-* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge. (UnixおよびmacOS環境を想定して解説を書いています。Unixコマンドを利用して比較的小規模で実用的な使用方法を紹介します。)
+* This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
+* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge. (UnixおよびmacOS環境を想定して解説を書いています。同時にUnixコマンドやシェルスクリプトを利用して比較的小規模で実用的な使用方法を紹介します。)
 * I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be ambicious to work in the world in future. (プログラミング言語を勉強しながら同時に関連する英語も勉強して将来海外でプログラマーとして働きたい人を応援します。)
-* In contract, I would be very happy if you would like to learn Japanese + to work in Japan with learning Ruby. (逆に、日本（文化、日本語）に興味があって、Rubyを勉強して将来日本で働きたい（住みたい）、という人がいるならとても嬉しいです。)
+* In contract, I would be very glad if I could help you to learn Ruby and Japanese tegether. (逆に、日本（文化、日本語）に興味があって、Rubyを勉強しながら日本語も勉強したい人も応援してます。)
 
 Contents
 =================
@@ -21,7 +22,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
-TD
+* https://github.com/metaclass-eval/ruby_programming/blob/master/hello_world_001.md
 
 ## 2. What is Programming language? (プログラミング言語とは何か?)
 
@@ -33,7 +34,7 @@ TD
 
 ## To be continued (続く)
 
-BB
+BB Plan
 
 Light-side (真面目な初心者向け）
 * For Beginners (初級編)
@@ -58,9 +59,11 @@ Red-side (ちょっと萌えてきた人向け)
 * Evolution Simulation (進化学編)
 
 Dark-side (ダークサイドに堕ちたい人向け）
-* A Road to a black Rubyist (黒Ruby使いへの道)
+* Hello, Underworld! in Black Ruby (闇へのはじめの一歩)
+* A Road to a Black Rubyist (黒Ruby使いへの道)
 	* Rubyist vs. Ruby hacker (RubyistとRuby hackerの違い)
-	* Dark road map
+	* Zen in Black Rubyist (黒Ruby使いの禅)
+	* A dark road map for a Black Rubyist (黒Ruby使いのためのロードマップ (仮))
 * Bootstrap (ブートストラップのお話）
 * The Class (Rubyのクラスのお話)
 * Meta-programming (メタプログラミング)
