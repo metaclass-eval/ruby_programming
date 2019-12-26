@@ -5,7 +5,7 @@ TOC
 
 # 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
-コンピュータプログラミングが生まれいにしえの時代よりプログラミング言語を紹介するときには
+コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには
 
 ```
 Hello, World!
@@ -18,8 +18,9 @@ Hello, World!
 ## 1.1. Start Terminal (ターミナル起動)
 
 * ターミナルを起動します (解説によってはConsoleと読んでいる人もいます、古い時代の名残です)
+* macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。
 
-FIG
+![terminal]()
 
 ## 1.2. Make a source code (ソースコード作成)
 
