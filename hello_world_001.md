@@ -13,89 +13,89 @@
 
 ----
 
-コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには
+Since the computer programming was born, it is a convension to show (コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには)
 
 ```
 Hello, World!
 ```
 
-と画面に表示させる例題を紹介するという慣わしになっています。
+in the screen as an example when we introduce the programming language. (と画面に表示させる例題を紹介するという慣わしになっています。)
 
-以下、コンピュータにRuby（インタープリタ）がインストールされているという前提で説明をしていきいます (macOSを使っているならば特に前もってする作業はありません)。
+It is assumed that Ruby (interpreter) is installed in your computer in the following explanation. You do not have to anything in advance if you use macOS. (以下、コンピュータにRuby（インタープリタ）がインストールされているという前提で説明をしていきいます。 (macOSを使っているならば前もってする作業は特にありません))
 
 ## 1.1. Start Terminal (ターミナル起動)
 
-* ターミナルを起動します (解説によってはConsoleと読んでいる人もいます、古い時代の名残です)
-* macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。
+* Start the terminal. (ターミナルを起動します (解説によってはConsoleと読んでいる人もいます、古い時代の名残です))
+* Please click the magnifying glass icon on the right top, and type **terminal** (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
 
 ![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
 
 ## 1.2. Make a source code (ソースコード作成)
 
-次のコマンドをタイプしてください。
+Please type the following command in the terminal (次のコマンドをタイプしてください。)
 
 ```
 $ echo 'print "Hello, World!"' > hello_world.rb
 ```
 
 Note
-* 最初の「$」 (ドル記号) はタイプする必要はありません。
-* この **$** はUnixで主に使われるプロンプト（コマンド入力待機状態）を表す記号です。
-* **echo** は画面に文字列を表示するUnixコマンドです。
-* **echo** 以後、**""** (ダブルクォーテーション) で囲まれた文字列を次の行に表示します。
-* **>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。
-* もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。
-* ファイルが作成されたかどうかを確認するには **ls** とコマンドをタイプします。
+* You do not have to type **$**. (最初の「$」 (ドル記号) はタイプする必要はありません。)
+* The **$** is called *prompt* (shell prompt, command line prompt) which means that it is ready to run a command in Unix. (この **$** はUnixで主に使われるプロンプト（コマンド入力待機状態）を表す記号です。)
+* **echo** is a Unix command to show text in a screen. (**echo** は画面に文字列を表示するUnixコマンドです。)
+* The **""** (double quatation) will be shown in the next line after the command. (**echo** 以後、**""** (ダブルクォーテーション) で囲まれた文字列を次の行に表示します。)
+* **>** is a special symbol used in Unix, which switch the output into a file instead of showing the text in the screen. (**>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。)
+* The output file will be generated, and overwritten if the same file already exists. (もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。)
+* Please type **ls** if you want to check if the file is created. (ファイルが作成されたかどうかを確認するには **ls** とコマンドをタイプします。)
 
 ```
 $ ls
 ```
 
-* macOSを使っているなら、**open .** とタイプすることでFinderを起動することができます (最後のドット「.」もちゃんと意味があるので忘れないでください) (openとドット「.」の間にはスペースが必要です)。
+* You can start the Finder by typing **open .**. (macOSを使っているなら、**open .** とタイプすることでFinderを起動することができます (最後のドット「.」もちゃんと意味があるので忘れないでください) (openとドット「.」の間にはスペースが必要です)。)
 
 ```
 $ open .
 ```
 
-これで、Rubyプログラミングコード (ソースコード) が完成しました。
+Now it is done to make a Ruby source code. (これで、Rubyプログラミングコード (ソースコード) が完成しました。)
 
-Note
-* Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。
-* **hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。
+Note (ご注意)
+* It is convention to put **.rb** (extension) to the file name for a Ruby source code. (Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。)
+* The **hello_world.rb** contains only *text data*, so that you can open the file by, e.g., MS Word or TextEdit (the default text editor in macOS. (**hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。)
 
 ## 1.3. Run (実行)
 
-続けて、次のようにタイプ (コマンドを入力) してください。
+And please type as follows: (続けて、次のようにタイプ (コマンドを入力) してください。)
 
 ```
 $ ruby hello_world.rb
 ```
 
-Note
-* 前回と同様に最初の **$** は入力しないでください。
+Note (ご注意)
+* Please do not type **$**. (前回と同様に最初の **$** は入力しないでください。)
 
-Rubyプログラミングコードが実行され画面に
+If you can see in the screen (Rubyプログラミングコードが実行され画面に)
 
 ```
 Hello, World!
 ```
 
-と表示されれば成功です。Congraturations!
+, it scceeds. Congraturations! (と表示されれば成功です。おめでとう!)
 
 # 2. Summary (まとめ)
 
-このチュートリアルでは
+In this tutorial (このチュートリアルでは)
 
-1. echoコマンドを使ってRubyソースコードを作成しました。
-2. 作ったソースコードを実行して **Hello, World!** と画面に表示しました。
+1. You made a Ruby source code by using echo Unix command (echoコマンドを使ってRubyソースコードを作成しました。)
+2. You ran the Ruby code and showed **Hello, World!** in the screen. (作ったソースコードを実行して **Hello, World!** と画面に表示しました。)
 
 ![hello_world](https://github.com/metaclass-eval/ruby_programming/blob/master/png/hello_world.png)
 
 
-お疲れ様でした。
+Thank you for reading this tutorial. (お疲れ様でした。)
 
 P.S.
-* 質問等があればissueに遠慮なくお書きください。
+* Please do not hesitate to write down a comment or a question in the issue (質問等があればissueに遠慮なくお書きください。)
 
 *by Metaclass Eval*
 
