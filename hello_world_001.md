@@ -1,8 +1,16 @@
-Contents
+
+Table of Contents
 =================
 
-TOC
+* [1\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#1-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
+  * [1\.1\. Start Terminal (ターミナル起動)](#11-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
+  * [1\.2\. Make a source code (ソースコード作成)](#12-make-a-source-code-%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90)
+  * [1\.3\. Run (実行)](#13-run-%E5%AE%9F%E8%A1%8C)
+* [2\. Summary (まとめ)](#2-summary-%E3%81%BE%E3%81%A8%E3%82%81)
 
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+----
 # 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
 コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには
@@ -90,4 +98,6 @@ P.S.
 * 質問等や間違いなどissueに遠慮なくお書きください。
 
 *by Metaclass Eval*
+
+
 
