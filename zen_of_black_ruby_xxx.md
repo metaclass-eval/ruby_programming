@@ -1,5 +1,6 @@
 
 # X. The Zen of Black Ruby
+*by Metaclass Eval*
 
 ## 1. in Japanese
 1. Ruby大好き。いつかRuby hackerになりたい。でもなれない。
