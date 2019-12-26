@@ -17,7 +17,7 @@
 1. I love Ruby. I want to become a Ruby hacker one day, but I know I cannot become...never.
 2. I love vim. IDE? What's that?
 3. I love zsh. bash? I am so sorry for ESC. Please do not hit her any more.
-4. I love Github. It is my external memory. I would die if git was gone.
+4. I love Github. It is my external brain. I would die if git was gone.
 5. I love Redmine. But I am only using Wiki, and I use a Ticket as a ToDo task.
 6. I hate Test. But it should be fine. We would never die even if test was gone.
 7. Debugger? I know p and pp. p is my best friend.
