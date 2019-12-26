@@ -1,17 +1,15 @@
-# Black Ruby Programming -yet another tutorial-
+# Black Ruby Programming -yet another tutorial to the darkside-
 
 Note (ご使用上のご注意)
-* This site describes 1. how to use Ruby in Black and 2. what to do in Black Ruby for a normal Rubyist. (このサイトは普通のRubyistを対象として、よりRubyらしいRubyの使い方の解説記事を掲載します。)
+* This site gives you articles of how to use Ruby in more Ruby-like mannar regardless of efficiency. (このサイトは普通のRubyistを対象として、よりRubyらしいRubyの使い方の解説記事を掲載します。)
 * The documents describe the articles assuming Unix knowledge. (Unixのある程度の知識をを想定して解説を書いています。Unixコマンドの解説はざっくり省略します。)
-* I would like to help such a person who wants to learn Ruby more deeply and at the same time to use Ruby with the philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyらしいプログラミングを楽しみたい方を応援します。)
+* I would like to help such a person who wants to learn Ruby more deeply and at the same time to peep the darkside of Ruby with feeling the core philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyらしいプログラミングを楽しみたい方を応援します。)
 
 
 Contents
 =================
 
-TOC
-
-## 1. Hello, Underworld! in Black Ruby - the first dark Ruby code - (闇へのはじめの一歩)
+## 1. Hello, Underworld! in Black Ruby - the first step to the darkside - (闇へのはじめの一歩)
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/hello_underworld_xxx.md
 
