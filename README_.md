@@ -1,11 +1,9 @@
 # Black Ruby Programming -yet another tutorial-
 
 Note (ご使用上のご注意)
-* This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
-* The documents assume the Unix & macOS environment, not Windows, including Unix knowledge. (UnixおよびmacOS環境を想定して解説を書いています。同時にUnixコマンドやシェルスクリプトを利用して比較的小規模で実用的な使用方法を紹介します。)
-* I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be ambicious to work in the world in future. (プログラミング言語を勉強しながら同時に関連する英語も勉強して将来海外でプログラマーとして働きたい人を応援します。)
-* In contract, I would be very glad if I could help you to learn Ruby and Japanese tegether. (逆に、日本（文化、日本語）に興味があって、Rubyを勉強しながら日本語も勉強したい人も応援してます。)
-
+* This site describes 1. how to use Ruby in Black and 2. what to do in Black Ruby for a normal Rubyist. (このサイトは普通のRubyistを対象として、よりRubyらしいRubyの使い方の解説記事を掲載します。)
+* The documents describe the articles assuming Unix knowledge. (Unixのある程度の知識をを想定して解説を書いています。Unixコマンドの解説はざっくり省略します。)
+* I would like to help such a person who wants to learn Ruby more deeply and at the same time to use Ruby with the philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyらしいプログラミングを楽しみたい方を応援します。)
 
 
 Contents
@@ -19,7 +17,7 @@ TOC
 
 ## 2. Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？)
 
-TD
+* https://github.com/metaclass-eval/ruby_programming/blob/master/rubyist_vs_ruby_hacker_xxx.md
 
 ## 3. Zen in Black Rubyist (Black Rubyistのための禅)
 
