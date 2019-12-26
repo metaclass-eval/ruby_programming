@@ -1,8 +1,6 @@
 
 
-1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
-
-=================
+# 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
 * [1\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#1-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
   * [1\.1\. Start Terminal (ターミナル起動)](#11-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
