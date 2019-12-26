@@ -95,7 +95,7 @@ Hello, World!
 お疲れ様でした。
 
 P.S.
-* 質問等や間違いなどissueに遠慮なくお書きください。
+* 質問等があればissueに遠慮なくお書きください。
 
 *by Metaclass Eval*
 
