@@ -13,20 +13,23 @@
 
 ----
 
-Since the computer programming was born, it is a convension to show (コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには)
+Since the computer programming was born a long, long time ago, it has been a convension to show (コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには)
 
 ```
 Hello, World!
 ```
 
-in the screen as an example when we introduce the programming language. (と画面に表示させる例題を紹介するという慣わしになっています。)
+in the screen as an example when we introduce a programming language. (と画面に表示させる例題を紹介するという慣わしになっています。)
 
 It is assumed that Ruby (interpreter) is installed in your computer in the following explanation. You do not have to anything in advance if you use macOS. (以下、コンピュータにRuby（インタープリタ）がインストールされているという前提で説明をしていきいます。 (macOSを使っているならば前もってする作業は特にありません))
 
+Tips
+* [Why is it not good to use Windows to learn a programming language for the first time? (なぜプログラミング言語を学ぶのにWindowsが適さないのか？)](https://github.com/metaclass-eval/ruby_programming/blob/master/why_not_good_in_windows.md)
+
 ## 1.1. Start Terminal (ターミナル起動)
 
-* Start the terminal. (ターミナルを起動します (解説によってはConsoleと読んでいる人もいます、古い時代の名残です))
-* Please click the magnifying glass icon on the right top, and type **terminal** (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
+* Start the terminal. (ターミナルを起動します。解説によってはConsole (コンソール) と呼んでいる人もいます、古い時代の名残です。)
+* Please click the magnifying glass icon at the top right, and type **terminal** (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
 
 ![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
 
