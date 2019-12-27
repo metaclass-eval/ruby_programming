@@ -91,7 +91,7 @@ File.unlink $0
 
 ----
 
-Next, let's see the code created during the process. (次に新しく生成された *hello_underworld.rb* の中身を見ていきます。)
+Next, let's see the code created during the process. (次に新しく生成された **hello_underworld.rb** の中身を見ていきます。)
 
 **File.write($0, "p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')")**
 * This code generates a new code and overwrites the original source code file. (このコードにより以下のように **hello_underworld.rb** が上書きされます。)
