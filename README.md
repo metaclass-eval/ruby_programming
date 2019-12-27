@@ -24,7 +24,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩) [#001]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/hello_world_001.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_world_002.md
 
 ## 2. What is Programming language? (プログラミング言語とは何か?) [#002]
 
@@ -65,10 +65,12 @@ Light-side (真面目な初心者向け）
 	* Making bash script by Ruby script (バッチスクリプト作成)
 	* Text data editing (テキストデータ編集)
 
-Red-side (ちょっと萌えてきた人向け)
+Red-side (ちょっと萌えてきた人向け, 闇との境界線)
 * How to use Github in Black (Githubのblackな使い方)
 * How to use Redmine in Black (Redmineのblackな使い方)
 * How to use Ruby on Rails in Black (Ruby on Railsのblackな使い方)
+* How to set up .zshrc for Black Rubyist (黒Ruby使いのためのzシェル設定)
+* How to set up .vimrc for Black Rubyist (黒Ruby使いのためのvim設定)
 * Black Statistics (統計処理編)
 * Black Machine Learning (機械学習編)
 * Black Bioinformatics (生物情報学編)
