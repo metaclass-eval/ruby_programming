@@ -19,5 +19,5 @@ Contents
 
 ## 3. Zen in Black Rubyist (Black Rubyistのための禅) [997#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/zen_in_black_ruby_xxx.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/zen_of_black_ruby_xxx.md
 
