@@ -115,7 +115,7 @@ gsub(/aaa/, 'bbb')
 * This method replaces the first String (pattern, regular expression) with the second argument. (これは文字列置換のメソッドで、文字列中のaaaをbbbに置き換えます。)
 
 $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
-* i.. it becomes actually **"Hello, Underworld!"**. (つまり、これは実際には **"Hello, Underworld!"** になります。)
+* i.e. it becomes actually **"Hello, Underworld!"**. (つまり、これは実際には **"Hello, Underworld!"** になります。)
 
 p
 * It shows the object in a Human readble format. (人間に読みやすい形でオブジェクトを表示してくれます。)
@@ -126,44 +126,47 @@ p $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
 ## 5. Summary (まとめ)
 
 Remarks (注目するべきポイント)
-* Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。
-* これがRubyで実現しやすいのは
- 1. メソッドやブロックの戻り値（オブジェクト）に対して再びメソッド（ブロック）を適用できる
- 2. メソッド（ブロック）の戻り値が直感的に対応するオブジェクトであるように実装されている
- から、です。
-* コードを読むときの意識の流れとしては、1) 左から右、2) 上から下、です。
-* 調子に乗ってカスケードを長くするとバグが入って死亡フラグが立ちます。
+* Rubyist usually cascades simple methods an blocks in one line. (Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。)
+* This is possible becuase Ruby (これがRubyで実現しやすいのは)
+ 1. can apply a method and block to the return value (object) (メソッドやブロックの戻り値（オブジェクト）に対して再びメソッド（ブロック）を適用できる)
+ 2. implements methods and blocks as expected intuitively (メソッド（ブロック）の戻り値が直感的に対応するオブジェクトであるように実装されている)
+
+. (から、です。)
+* You should read the code 1) from left to right, and 2) from top to bottom. (コードを読むときの意識の流れとしては、1) 左から右、2) 上から下、です。)
+* The long cascadings may kill you die due to a bug. (調子に乗ってカスケードを長くするとバグが入って死亡フラグが立ちます。)
 
 処理の流れ (おさらい)
 
-初期hello_underworld.rb
+The original hello_underworld.rb (初期hello_underworld.rb)
 ```
 File.write($0, "p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')")
 puts `ruby #{$0}`
 File.unlink $0
 ```
 
-実行時hello_underworld.rb
+The overwritten hello_underworld.rb (実行時hello_underworld.rb)
 ```
 p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 ```
 
-これが
+This is executed by (これが)
 ```
 puts `ruby #{$0}`
 ```
 
-によってサブプロセスで実行されて、メインプロセスに結果が表示された後、メインプロセスで
+in a child process, and the result is shown in the main process, and the main process executes this (によってサブプロセスで実行されて、メインプロセスに結果が表示された後、メインプロセスで)
 ```
 File.unlink $0
 ```
 
-が実行されて、ファイルが削除されて終了します。お疲れ様でした。
+and the source file is deleted and the process is done. (が実行されて、ファイルが削除されて終了します。お疲れ様でした。)
 
 P.S.
-* 全くもって無意味なコードで実用的ではありませんが、Rubyの心をわかりやすく散りばめらたつもりです。
-* 楽しんでいただけたら幸いです。
-* もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに書いていただけると幸いです。
+* It is totally meaningless, however, some typical Ruby tips are shown in this example. (全くもって無意味なコードで実用的ではありませんが、Rubyの心をわかりやすく散りばめらたつもりです。)
+* I would be happy if you enjoyed the code. (楽しんでいただけたら幸いです。)
+* Please do not hesitate to leave you comments in the issue. (もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに書いていただけると幸いです。)
+
+Thank you for reading. See you. (お疲れ様でした。)
 
 *by Metaclass Eval*
 
