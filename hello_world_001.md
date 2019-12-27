@@ -34,7 +34,7 @@ Tips
 
 ![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
 
-Then, you will see the terminal window (white in background). (これで以下のようなターミナルが表示されたと思います。デフォルトでは白背景のターミナルが表示されます。)
+Then, you will see the terminal window (white in background as a default). (これで以下のようなターミナルウィンドウが表示されたと思います。デフォルトでは白背景のターミナルが表示されます。)
 
 ![terminal_default](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal_default.png)
 
@@ -94,11 +94,14 @@ Hello, World!
 
 In this tutorial (このチュートリアルでは)
 
-1. You made a Ruby source code by using echo Unix command (echoコマンドを使ってRubyソースコードを作成しました。)
+1. You made a Ruby source code by using echo Unix command (echoコマンドを使ってRubyソースコードを作成しました。) 
 2. You ran the Ruby code and showed **Hello, World!** in the screen. (作ったソースコードを実行して **Hello, World!** と画面に表示しました。)
 
 ![hello_world](https://github.com/metaclass-eval/ruby_programming/blob/master/png/hello_world.png)
 
+Note (補足)
+* Usually we make a source code (file) by using a text editor. (通常は何らかのテキストエディタを用いてソースコードを作成します。)
+* In this tutorial, the way not to use a text editor for the simple explanation. (今回は簡単な紹介のためにテキストエディタを使わない方法を紹介しました。)
 
 Thank you for reading this tutorial. (お疲れ様でした。)
 
