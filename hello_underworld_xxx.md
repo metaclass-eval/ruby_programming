@@ -58,36 +58,36 @@ $0
 * i.e. it actually becomes **hello_underworld.rb""**. (ここでは *hello_underworld.rb* になります。)
 
 File.write($0, "...")
-* つまり、これは呼び出したファイルに上書きして新しいコードを作っています。
-* これでエラーにならないのは、Rubyインタープリタは起動すると全てのソースコードを一旦メモリ上にロードするので、その後にソースコード（ファイル）が削除されても大丈夫なのです。
+* i.e. It overwrites the file with a new code. (つまり、これは呼び出したファイルに上書きして新しいコードを作っています。)
+* The error does not happen, beucase Ruby loads everything of the source code once it starts, and it does not matter even if the original source code is deleted after the loading. (これでエラーにならないのは、Rubyインタープリタは起動すると全てのソースコードを一旦メモリ上にロードするので、その後にソースコード（ファイル）が削除されても大丈夫なのです。)
 
 ``
-* バッククォートで囲むとそれを外部コマンド（Unixコマンド）としてサブプロセスで動かします。
-* ちなみに、サブプロセスの標準出力が戻り値になります。バッククォートで実行しても出力はメインプロセスの標準出力には表示されませんのでご注意ください。
+* The `` (backquote) executes the Unix command in a child process. (バッククォートで囲むとそれを外部コマンド（Unixコマンド）としてサブプロセスで動かします。)
+* The output from the child process becomes the return value. Note that it does not show the output of the command in the main process. (ちなみに、サブプロセスの標準出力が戻り値になります。バッククォートで実行しても出力はメインプロセスの標準出力には表示されませんのでご注意ください。)
 
 
 #{}
-* これは文字列中（""ダブルクオーテーション内）で変数展開するための記号です。
+* This is the variable expansion in a string (i.e. within the "" (double quotation). (これは文字列中（""ダブルクオーテーション内）で変数展開するための記号です。)
 
 #{$0}
-* つまり、これは実際には **hello_underworld.rb** になります。
+* i.e. this becomes **hello_underworld.rb**. (つまり、これは実際には **hello_underworld.rb** になります。)
 
 ruby #{$0}
-* つまり、これは実際には **ruby hello_underworld.rb** になります。
+* i.e. this becomes **ruby hello_underworld.rb**. (つまり、これは実際には **ruby hello_underworld.rb** になります。)
 
 File.unlink()
-* これはファイルを削除するメソッドです。
+* This deletes a file. (これはファイルを削除するメソッドです。)
 
 File.unlink($0)
-* つまり、これは実際には **File.unlink("hello_underworld.rb")** になります。
-* 自分自身を削除するなんてことは、普通しません (爆)。
+* i.e. this actually becomes **File.unlink("hello_underworld.rb")**. (つまり、これは実際には **File.unlink("hello_underworld.rb")** になります。)
+* Usually, we never do such a thing. (自分自身を削除するなんてことは、普通しません (爆)。)
 
 ----
 
-次に新しく生成された *hello_underworld.rb* の中身を見ていきます。
+Next, let's see the code created during the process. (次に新しく生成された *hello_underworld.rb* の中身を見ていきます。)
 
 File.write($0, "p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')")
-* このコードにより以下のように **hello_underworld.rb** が上書きされます。
+* This code generates a new code and overwrites the original source code file. (このコードにより以下のように **hello_underworld.rb** が上書きされます。)
 
 hello_underworld.rb
 ```
@@ -95,33 +95,33 @@ p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 ```
 
 $0.split('_')
-* これは実際には **"hello_underworld.rb".split('_')** になります。
-* 結果は、 **["hello", "underworld.rb"]**　(配列) になります。
+* It becomes actually ***hello_underworld.rb".split('_')** . (これは実際には **"hello_underworld.rb".split('_')** になります。)
+* As a result, **["hello", "underworld.rb"]**. (結果は、 **["hello", "underworld.rb"]**　(配列) になります。)
 
 map(&:capitalize)
-* これは配列の各要素に *capitalize* メソッドを適用するRuby idiom（よく使うTips）です。
-* capitalizeはStringオブジェクトのメソッドです。
+* This applies **capitalize** method to each element of the array, which is one of typical Ruby idioms. (これは配列の各要素に *capitalize* メソッドを適用するRuby idiom（よく使うTips）です。)
+* captalize is a method of String object. (capitalizeはStringオブジェクトのメソッドです。)
 
 $0.split('_').map(&:capitalize)
-* つまり、これは実際には **["Hello", "Underworld.rb"]** になります。
+* i.e. this becomes **["Hello", "Underworld.rb"]**. (つまり、これは実際には **["Hello", "Underworld.rb"]** になります。)
 
 join(", ")
-* これは配列を引数の文字列で連結して文字列を返すメソッドです。
+* This joins the elements into a String. (これは配列を引数の文字列で連結して文字列を返すメソッドです。)
 
 $0.split('_').map(&:capitalize).join(", ")
-* つまり、これは実際には **"Hello, Underworld.rb"** になります。
+* i.e. this becomes **"Hello, Underworld.rb"**. (つまり、これは実際には **"Hello, Underworld.rb"** になります。)
 
 gsub(/aaa/, 'bbb')
-* これは文字列置換のメソッドで、文字列中のaaaをbbbに置き換えます。
+* This method replaces the first String (pattern, regular expression) with the second argument. (これは文字列置換のメソッドで、文字列中のaaaをbbbに置き換えます。)
 
 $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
-* つまり、これは実際には *"Hello, Underworld!"* になります。
+* i.. it becomes actually **"Hello, Underworld!"**. (つまり、これは実際には **"Hello, Underworld!"** になります。)
 
 p
-* 人間に読みやすい形でオブジェクトを表示してくれます。
+* It shows the object in a Human readble format. (人間に読みやすい形でオブジェクトを表示してくれます。)
 
 p $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
-* 結果、**"Hello, Underworld!"** と表示されます。
+* Then,  it becomes **"Hello, Underworld!"**. (結果、**"Hello, Underworld!"** と表示されます。)
 
 ## 5. Summary (まとめ)
 
