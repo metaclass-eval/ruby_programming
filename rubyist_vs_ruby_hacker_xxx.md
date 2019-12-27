@@ -1,10 +1,10 @@
 
-# 2. Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？)
+# Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？) [998#]
 
 matzさんによると
 * http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/2908
 
-## 2.1. Rubyist
+## 1. Rubyist
 
 The person who 
 * advertizes ruby to friends (rubyを周りの人に宣伝する人)
@@ -13,7 +13,7 @@ The person who
 * writes an email to thank to matz (rubyの作者に励ましのお便りを書く人)
 * matz-san (rubyの作者)
 
-## 2.2. Ruby hacker
+## 2. Ruby hacker
 
 The person who
 * develops a module of ruby (rubyの拡張モジュールを書く人)
@@ -23,7 +23,7 @@ The person who
 * make a complicated ruby code that no one understand (rubyで他人が見てもわけが分からないスクリプトを書く人)
 * matyz-san (rubyの作者)
 
-## 2.3. Black Rubyist
+## 3. Black Rubyist
 
 *by Metaclass Eval*
 
