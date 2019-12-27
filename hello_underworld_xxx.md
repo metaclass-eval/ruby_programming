@@ -1,4 +1,4 @@
-# Hello, Underworld! (闇へのはじめの一歩)
+# Hello, Underworld! in Black Ruby (闇へのはじめの一歩)
 
 TOC
 
