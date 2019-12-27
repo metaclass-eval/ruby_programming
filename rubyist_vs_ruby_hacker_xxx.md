@@ -33,6 +33,7 @@ The person who
 * does not understand the code that was made yesterday by self (昨日作った自分のコードが理解できない人)
 * takes care of meta programming more than speed (処理速度よりメタプログラミングを重視する人)
 * is captivated by the design concept of Ruby and lost the standard ways of practical programming (Rubyの言語設計思想に心を奪われて実用的なコードが書けなくなってしまった人)
+* i.e. is eventually falling in the darkside (つまり、Rubyの闇に落ちてしまったRubyist...)
 .
 
 Note (ご注意)
