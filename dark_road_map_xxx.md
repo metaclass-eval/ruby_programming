@@ -1,5 +1,5 @@
 
-# Dark Road Map to a Black Rubyist [996#]
+# A Dark Road Map to a Black Rubyist [996#]
 
 *by Metaclass Eval*
 
