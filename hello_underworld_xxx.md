@@ -63,60 +63,65 @@ File.write($0, "...")
 
 ``
 * バッククォートで囲むとそれを外部コマンド（Unixコマンド）としてサブプロセスで動かします。
+* ちなみに、サブプロセスの標準出力が戻り値になります。バッククォートで実行しても出力はメインプロセスの標準出力には表示されませんのでご注意ください。
+
 
 #{}
 * これは文字列中（""ダブルクオーテーション内）で変数展開するための記号です。
 
 #{$0}
-* これは実際には *hello_underworld.rb* になります。
+* つまり、これは実際には **hello_underworld.rb** になります。
 
-`ruby #{$0}`
-* これは実際には `ruby hello_underworld.rb` になります。
+ruby #{$0}
+* つまり、これは実際には **ruby hello_underworld.rb** になります。
 
 File.unlink()
 * これはファイルを削除するメソッドです。
 
 File.unlink($0)
-* これは実際には *File.unlink("hello_underworld.rb")* になります。
-* 自分自身を削除するなんてことは、普通しません。
+* つまり、これは実際には **File.unlink("hello_underworld.rb")** になります。
+* 自分自身を削除するなんてことは、普通しません (爆)。
+
+----
 
 次に新しく生成された *hello_underworld.rb* の中身を見ていきます。
 
 File.write($0, "p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')")
-* このコードにより以下のようなファイルが作成されます。
+* このコードにより以下のように **hello_underworld.rb** が上書きされます。
 
+hello_underworld.rb
 ```
 p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 ```
 
 $0.split('_')
-* これは実際には *"hello_underworld.rb".split('_')* になります。
-* 結果は、 *["hello", "underworld.rb"]*　(配列)になります。
+* これは実際には **"hello_underworld.rb".split('_')** になります。
+* 結果は、 **["hello", "underworld.rb"]**　(配列) になります。
 
 map(&:capitalize)
 * これは配列の各要素に *capitalize* メソッドを適用するRuby idiom（よく使うTips）です。
 * capitalizeはStringオブジェクトのメソッドです。
 
 $0.split('_').map(&:capitalize)
-* つまり、これは実際には *["Hello", "Underworld.rb"]* になります。
+* つまり、これは実際には **["Hello", "Underworld.rb"]** になります。
 
 join(", ")
 * これは配列を引数の文字列で連結して文字列を返すメソッドです。
 
 $0.split('_').map(&:capitalize).join(", ")
-* これは実際には *"Hello, Underworld.rb"* になります。
+* つまり、これは実際には **"Hello, Underworld.rb"** になります。
 
 gsub(/aaa/, 'bbb')
 * これは文字列置換のメソッドで、文字列中のaaaをbbbに置き換えます。
 
 $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
-* これは実際には *"Hello, Underworld!"* になります。
+* つまり、これは実際には *"Hello, Underworld!"* になります。
 
 p
-* 人間に読みやすい形でオブジェクトを表示して改行します。
+* 人間に読みやすい形でオブジェクトを表示してくれます。
 
 p $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
-* 結果、"Hello, Underworld!" と表示されます。
+* 結果、**"Hello, Underworld!"** と表示されます。
 
 # 2. Summary (まとめ)
 
@@ -129,6 +134,9 @@ Remarks (注目するべきポイント)
 * コードを読むときの意識の流れとしては、1) 左から右、2) 上から下、です。
 * 調子に乗ってカスケードを長くするとバグが入って死亡フラグが立ちます。
 
+P.S.
+* もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに描いていただけると幸いです。
 
+*by Metaclass Eval*
 
 
