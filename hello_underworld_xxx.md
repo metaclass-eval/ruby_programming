@@ -170,7 +170,7 @@ and the source file is deleted in the main process and the process is done. (が
 
 P.S.
 * It is totally meaningless, however, some typical Ruby tips are shown in this example. (全くもって無意味なコードで実用的ではありませんが、Rubyの心をわかりやすく散りばめらたつもりです。)
-* I would be happy if you enjoyed the code. (楽しんでいただけたら幸いです。)
+* I would be glad if you could enjoy the code. (楽しんでいただけたら幸いです。)
 * Please do not hesitate to leave you comments in the issue. (もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに書いていただけると幸いです。)
 
 Thank you for reading. See you. (お疲れ様でした。)
