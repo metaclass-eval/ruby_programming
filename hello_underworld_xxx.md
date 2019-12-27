@@ -1,6 +1,13 @@
 # Hello, Underworld! in Black Ruby (闇へのはじめの一歩)
 
-TOC
+1. [First of all (はじめに)](#1-first-of-all-%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
+2. [Start Terminal (ターミナル起動)](#2-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
+3. [Make a source code (ソースコード作成)](#3-make-a-source-code-%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90)
+4. [Run (実行)](#4-run-%E5%AE%9F%E8%A1%8C)
+5. [Explanation (解説)](#5-explanation-%E8%A7%A3%E8%AA%AC)
+6. [Summary (まとめ)](#6-summary-%E3%81%BE%E3%81%A8%E3%82%81)
+
+*このチュートリアルは約10分で終了します*
 
 ----
 
@@ -39,7 +46,7 @@ Note (注意)
 * Usually, we do not such a thing deleting itself. (普通はこのような自爆コードは書きません。)
 * It can be implemented also in other languages than Ruby (Rubyに限らず似たようなことはどの言語でもできます。)
 
-## 1.4. Explanation (解説)
+## 5. Explanation (解説)
 
 I will explain the code. (コードの解説をします。)
 
@@ -123,7 +130,7 @@ p
 p $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
 * Then,  it becomes **"Hello, Underworld!"**. (結果、**"Hello, Underworld!"** と表示されます。)
 
-## 5. Summary (まとめ)
+## 6. Summary (まとめ)
 
 Remarks (注目するべきポイント)
 * Rubyist usually cascades simple methods an blocks in one line. (Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。)
@@ -169,5 +176,4 @@ P.S.
 Thank you for reading. See you. (お疲れ様でした。)
 
 *by Metaclass Eval*
-
 
