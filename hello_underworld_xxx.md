@@ -166,7 +166,7 @@ in a child process, and the result is shown in the main process, and the main pr
 File.unlink $0
 ```
 
-and the source file is deleted and the process is done. (が実行されて、ファイルが削除されて終了します。お疲れ様でした。)
+and the source file is deleted in the main process and the process is done. (が実行されて、ファイルが削除されて終了します。お疲れ様でした。)
 
 P.S.
 * It is totally meaningless, however, some typical Ruby tips are shown in this example. (全くもって無意味なコードで実用的ではありませんが、Rubyの心をわかりやすく散りばめらたつもりです。)
