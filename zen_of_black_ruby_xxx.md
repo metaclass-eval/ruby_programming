@@ -1,5 +1,5 @@
 
-# X. The Zen of Black Ruby
+# The Zen of Black Ruby [997#]
 *by Metaclass Eval*
 
 ## 1. in Japanese
