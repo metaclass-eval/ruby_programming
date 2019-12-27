@@ -1,17 +1,18 @@
 
 
-# 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
+# Hello, World! in Ruby - the first Ruby code - (はじめの一歩) [#001]
 
-* [1\. Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩)](#1-hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9)
-  * [1\.1\. Start Terminal (ターミナル起動)](#11-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
-  * [1\.2\. Make a source code (ソースコード作成)](#12-make-a-source-code-%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90)
-  * [1\.3\. Run (実行)](#13-run-%E5%AE%9F%E8%A1%8C)
-* [2\. Summary (まとめ)](#2-summary-%E3%81%BE%E3%81%A8%E3%82%81)
-
+* [1\. First of all (はじめに)](#1-first-of-all-%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
+* [2\. Start Terminal (ターミナル起動)](#2-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
+* [3\. Make a source code (ソースコード作成)](#3-make-a-source-code-%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90)
+* [4\. Run (実行)](#4-run-%E5%AE%9F%E8%A1%8C)
+* [5\. Summary (まとめ)](#5-summary-%E3%81%BE%E3%81%A8%E3%82%81)
 
 *このチュートリアルは約 **5** 分で終わります*
 
 ----
+
+## 1. First of all (はじめに)
 
 Since the computer programming was born a long, long time ago, it has been a convension to show (コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには)
 
@@ -26,14 +27,14 @@ It is assumed that Ruby (interpreter) is installed in your computer in the follo
 Tips
 * [Why is it not good to use Windows to learn a programming language for the first time? (なぜプログラミング言語を学ぶのにWindowsが適さないのか？)](https://github.com/metaclass-eval/ruby_programming/blob/master/why_not_good_in_windows.md)
 
-## 1.1. Start Terminal (ターミナル起動)
+## 2. Start Terminal (ターミナル起動)
 
 * Start the terminal. (ターミナルを起動します。解説によってはConsole (コンソール) と呼んでいる人もいます、古い時代の名残です。)
 * Please click the magnifying glass icon at the top right, and type **terminal** (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
 
 ![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
 
-## 1.2. Make a source code (ソースコード作成)
+## 3. Make a source code (ソースコード作成)
 
 Please type the following command in the terminal (次のコマンドをタイプしてください。)
 
@@ -66,7 +67,7 @@ Note (ご注意)
 * It is convention to put **.rb** (extension) to the file name for a Ruby source code. (Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。)
 * The **hello_world.rb** contains only *text data*, so that you can open the file by, e.g., MS Word or TextEdit (the default text editor in macOS. (**hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。)
 
-## 1.3. Run (実行)
+## 4. Run (実行)
 
 And please type as follows: (続けて、次のようにタイプ (コマンドを入力) してください。)
 
@@ -85,7 +86,7 @@ Hello, World!
 
 , it scceeds. Congraturations! (と表示されれば成功です。おめでとう!)
 
-# 2. Summary (まとめ)
+## 5. Summary (まとめ)
 
 In this tutorial (このチュートリアルでは)
 
@@ -101,6 +102,5 @@ P.S.
 * Please do not hesitate to write down a comment or a question in the issue (質問等があればissueに遠慮なくお書きください。)
 
 *by Metaclass Eval*
-
 
 
