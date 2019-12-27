@@ -173,7 +173,7 @@ P.S.
 * I would be glad if you could enjoy the code. (楽しんでいただけたら幸いです。)
 * Please do not hesitate to leave you comments in the issue. (もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに書いていただけると幸いです。)
 
-Thank you for reading. See you. (お疲れ様でした。)
+Thank you for reading this tutorial. See you, next. (お疲れ様でした。)
 
 *by Metaclass Eval*
 
