@@ -10,7 +10,7 @@
 5. Redmine大好き。でもwikiしか使わない。TicketはToDoリストの代わり。
 6. Test嫌い。したくない。でもきっと大丈夫。Testしなくても死なないから。
 7. デバッガー？何それ？pしか知らない。
-8. どこに保存したか忘れたら作り直す。きっと昔のソースコードが見つかっても理解できないと思う。
+8. どこに保存したか忘れたら作り直す。昔のソースコードが見つかってもたぶん理解できないと思う。
 9. メタプログラミング大好き。速度よりメタが大事。
 10. Python？仲良くしたい...
 
@@ -21,7 +21,7 @@
 4. I love Github. It is my external brain. I would die if git was gone.
 5. I love Redmine. But I am only using Wiki, and I use a Ticket as a ToDo task.
 6. I hate Test. But it should be fine. We would never die even if test was gone.
-7. Debugger? I know p and pp. p is my best friend.
+7. Debugger? I know p. p is my best friend.
 8. I will make a new one from scratch again if I forget where my old script is. 99.9 million % for sure, I will not understand it even if I find it.
 9. I love meta-programming. Meta is more important than speed.
 10. Python? I wish we would get along together...
