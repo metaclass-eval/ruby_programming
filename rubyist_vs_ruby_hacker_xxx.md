@@ -28,11 +28,12 @@ The person who
 *by Metaclass Eval*
 
 The person who
-* wants to be a Ruby hacker one day, but will never be, because (Ruby hackerになりたい人でもなれない人、なぜなら)
-* does not understand CRuby source code (or gave up to understand CRuby source code) (CRubyのソースコード理解に挫折した人)
-* does not understand the code that was made yesterday by self (昨日作った自分のコードが理解できない人)
-* takes care of meta programming more than speed (処理速度よりメタプログラミングを重視する人)
-* is captivated by the design concept of Ruby and lost the standard ways of practical programming (Rubyの言語設計思想に心を奪われて実用的なコードが書けなくなってしまった人)
+* wants to be a Ruby hacker one day, but will never be, because the one (Ruby hackerになりたい人でもなれない人、なぜなら)
+	* does not understand CRuby source code (or gave up to understand CRuby source code) (CRubyのソースコード理解に挫折した人)
+	* does not understand the code that was made yesterday by self (昨日作った自分のコードが理解できない人)
+	* takes care of meta programming more than speed (処理速度よりメタプログラミングを重視する人)
+	* is captivated by the design concept of Ruby and lost the standard ways of practical programming (Rubyの言語設計思想に心を奪われて実用的なコードが書けなくなってしまった人)
+.
 
 Note (ご注意)
 * あくまで個人的意見です。
