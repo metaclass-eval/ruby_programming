@@ -50,7 +50,7 @@ Note
 * You do not have to type **$**. (最初の「$」 (ドル記号) はタイプする必要はありません。)
 * The **$** is called *prompt* (shell prompt, command line prompt) which means that it is ready to run a command in Unix. (この **$** はUnixで主に使われるプロンプト（コマンド入力待機状態）を表す記号です。)
 * **echo** is a Unix command to show text in a screen. (**echo** は画面に文字列を表示するUnixコマンドです。)
-* The **""** (double quatation) will be shown in the next line after the command. (**echo** 以後、**""** (ダブルクォーテーション) で囲まれた文字列を次の行に表示します。)
+* The string after the **echo** with **''** (single quatation) will be shown in the next line after the command. (**echo** 以後、**''** (シングルクォーテーション) で囲まれた文字列を次の行に表示します。)
 * **>** is a special symbol used in Unix, which switch the output into a file instead of showing the text in the screen. (**>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。)
 * The output file will be generated, and overwritten if the same file already exists. (もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。)
 * Please type **ls** if you want to check if the file is created. (ファイルが作成されたかどうかを確認するには **ls** とコマンドをタイプします。)
