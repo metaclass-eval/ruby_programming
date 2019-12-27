@@ -5,7 +5,7 @@ TD
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
 * 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/jp
 
-Note (ご使用上のご注意)
+Note (ご利用上のご注意)
 * This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
 * The documents assume the Unix & macOS environment, not Windows, including Unix knowledge. (UnixおよびmacOS環境を想定して解説を書いています。同時にUnixコマンドやシェルスクリプトを利用して比較的小規模で実用的な使用方法を紹介します。)
 * I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be ambicious to work in the world in future. (プログラミング言語を勉強しながら同時に関連する英語も勉強して将来海外でプログラマーとして働きたい人を応援します。)
@@ -19,6 +19,8 @@ Contents
 * [3\. Compare with other languages (他のプログラミング言語との比較)](#3-compare-with-other-languages-%E4%BB%96%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+----
 
 ## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
 
@@ -34,7 +36,21 @@ TD
 
 ## To be continued (続く)
 
+## Abbreviations
+
+* TD: ToDo
+* BB: Brainstroming Bullets 
+* TDBB: TD + BB
+* PD: Pending
+* TOC: the place where the Table Of Contents will be inserted
+* []: the place where a reference will be inserted
+* IMG: the place where a picture/figure will be inserted
+
+----
+
 BB Plan
+
+* [README in darkside](https://github.com/metaclass-eval/ruby_programming/blob/master/README_.md)
 
 Light-side (真面目な初心者向け）
 * For Beginners (初級編)
@@ -71,15 +87,5 @@ Dark-side (ダークサイドに堕ちたい人向け）
 	* Block + Lambda (ブロックとラムダ関数)
 	* Recursive function + class (再帰関数と再帰クラス)
 	* Dynamical definition + dispatching (動的定義と呼び出し)
-
-## Abbreviations
-
-* TD: ToDos
-* BB: Brainstroming Bullets 
-* TDBB: TD + BB
-* PD: Pending
-* TOC: the place where the Table Of Contents will be inserted
-* []: the place where a reference will be inserted
-* IMG: the place where a picture/figure will be inserted
 
 
