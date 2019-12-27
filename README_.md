@@ -1,4 +1,4 @@
-# Black Ruby Programming -yet another tutorial to the darkside-
+# Ruby Programming -yet another tutorial to the darkside-
 
 Note (ご使用上のご注意)
 * This site gives you articles of how to use Ruby in more Ruby-like mannar regardless of efficiency. (このサイトは普通のRubyistを対象として、よりRubyらしいRubyの使い方の解説記事を掲載してきます。)
@@ -9,7 +9,7 @@ Note (ご使用上のご注意)
 Contents
 =================
 
-## 1. Hello, Underworld! in Black Ruby - the first step to the darkside - (闇へのはじめの一歩)
+## 1. Hello, Underworld! in Ruby - the first step to the darkside - (闇へのはじめの一歩)
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/hello_underworld_xxx.md
 
