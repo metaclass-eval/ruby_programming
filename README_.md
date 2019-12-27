@@ -9,15 +9,15 @@ Note (ご使用上のご注意)
 Contents
 =================
 
-## 1. Hello, Underworld! in Ruby - the first step to the darkside - (闇へのはじめの一歩)
+## 1. Hello, Underworld! in Ruby - the first step to the darkside - (闇へのはじめの一歩) [999#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/hello_underworld_xxx.md
 
-## 2. Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？)
+## 2. Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？) [998#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/rubyist_vs_ruby_hacker_xxx.md
 
-## 3. Zen in Black Rubyist (Black Rubyistのための禅)
+## 3. Zen in Black Rubyist (Black Rubyistのための禅) [997#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/zen_in_black_xxx.md
 
