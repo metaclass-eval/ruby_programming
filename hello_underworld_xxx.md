@@ -136,7 +136,7 @@ p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 * Rubyist usually cascades simple methods and blocks in one line. (Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。)
 * This is possible becuase Ruby (これがRubyで実現しやすいのは)
  1. can apply a method and block to the return value (object) (メソッドやブロックの戻り値（オブジェクト）に対して再びメソッド（ブロック）を適用できる)
- 2. implements methods and blocks as expected intuitively (メソッド（ブロック）の戻り値が直感的に対応するオブジェクトであるように実装されている)
+ 2. implements the return value (object) of methods and blocks as expected intuitively (メソッド（ブロック）の戻り値が直感的に対応するオブジェクトであるように実装されている)
 
 . (から、です。)
 * You should read the code 1) from left to right, and 2) from top to bottom. (コードを読むときの意識の流れとしては、1) 左から右、2) 上から下、です。)
