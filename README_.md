@@ -17,7 +17,7 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/rubyist_vs_ruby_hacker_xxx.md
 
-## 3. Zen in Black Rubyist (Black Rubyistのための禅) [997#]
+## 3. The Zen of Black Rubyist (Black Rubyistのための禅) [997#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/zen_of_black_ruby_xxx.md
 
