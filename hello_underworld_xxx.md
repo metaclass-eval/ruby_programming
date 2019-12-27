@@ -133,7 +133,7 @@ p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 ## 6. Summary (まとめ)
 
 **Remarks (注目するべきポイント)**
-* Rubyist usually cascades simple methods an blocks in one line. (Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。)
+* Rubyist usually cascades simple methods and blocks in one line. (Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。)
 * This is possible becuase Ruby (これがRubyで実現しやすいのは)
  1. can apply a method and block to the return value (object) (メソッドやブロックの戻り値（オブジェクト）に対して再びメソッド（ブロック）を適用できる)
  2. implements methods and blocks as expected intuitively (メソッド（ブロック）の戻り値が直感的に対応するオブジェクトであるように実装されている)
