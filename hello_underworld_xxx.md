@@ -21,7 +21,7 @@ Hello, Underworld!
 
 in the screen as an example when we introduce a programming language (just kidding, sorry). (と画面に表示させる例題を紹介するという慣わしになっています。嘘です。)
 
-I just try my best to explain the followings with a lot of short cuts, but please follow me. (以下、かなり説明を省略しますが、ここは大事というところは頑張って丁寧に説明します。頑張ってついてきてください。)
+I just try my best to explain the followings with a lot of skips, but please follow me. (以下、かなり説明を省略しますが、ここは大事というところは頑張って丁寧に説明します。頑張ってついてきてください。)
 
 ## 2. Start Terminal (ターミナル起動)
 
