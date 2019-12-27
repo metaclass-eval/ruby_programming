@@ -30,9 +30,13 @@ Tips
 ## 2. Start Terminal (ターミナル起動)
 
 * Start the terminal. (ターミナルを起動します。解説によってはConsole (コンソール) と呼んでいる人もいます、古い時代の名残です。)
-* Please click the magnifying glass icon at the top right, and type **terminal** (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
+* Please click the magnifying glass icon at the top right, and type "**terminal**" (macOSを使っているなら右上の虫眼鏡アイコンをクリックして、**terminal**とタイプしてください。)
 
 ![terminal](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal.png)
+
+Then, you will see the terminal window (white in background). (これで以下のようなターミナルが表示されたと思います。デフォルトでは白背景のターミナルが表示されます。)
+
+![terminal_default](https://github.com/metaclass-eval/ruby_programming/blob/master/png/terminal_default.png)
 
 ## 3. Make a source code (ソースコード作成)
 
