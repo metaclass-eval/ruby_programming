@@ -59,7 +59,7 @@ Note
 $ ls
 ```
 
-* You can start the Finder by typing **open .**. (macOSを使っているなら、**open .** とタイプすることでFinderを起動することができます (最後のドット「.」もちゃんと意味があるので忘れないでください) (openとドット「.」の間にはスペースが必要です)。)
+* You can start the Finder by typing **open .** (macOSを使っているなら、**open .** とタイプすることでFinderを起動することができます (最後のドット「.」もちゃんと意味があるので忘れないでください) (openとドット「.」の間にはスペースが必要です)。)
 
 ```
 $ open .
