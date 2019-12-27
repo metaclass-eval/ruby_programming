@@ -1,47 +1,47 @@
-Contents
-=================
+# Hello, Underworld! (闇へのはじめの一歩)
 
 TOC
 
-# 1. Hello, Underworld! (闇へのはじめの一歩)
+----
 
-コンピュータプログラミングが生まれいにしえの時代よりプログラミング言語を紹介するときには
+## 1. First of all (はじめに)
+
+Since the computer programming was born a long, long time ago, it has been a convension to show (コンピュータプログラミングが生まれた、いにしえの時代よりプログラミング言語を紹介するときには)
 
 ```
 Hello, Underworld!
 ```
 
-と画面に表示させる例題を紹介するという慣わしになっています (嘘です)。
+in the screen as an example when we introduce a programming language (just kidding, sorry). (と画面に表示させる例題を紹介するという慣わしになっています。嘘です。)
 
+I just try my best to explain the followings with a lot of short cuts. Please follow me. (以下、かなり説明を省略しますが、ここは大事というところは頑張って丁寧に説明します。頑張ってついてきてください。)
 
-以下、かなり説明を省略しますが、ここは大事というところは頑張って丁寧に説明します。頑張ってついてきてください。
+## 2. Start Terminal (ターミナル起動)
 
-## 1.1. Start Terminal (ターミナル起動)
+Skip. (省略します。)
 
-省略します。
+## 3. Make a source code (ソースコード作成)
 
-## 1.2. Make a source code (ソースコード作成)
+Skip. You do not have to make it, b/c I pushed it in git. (Githubにあるので作らないで良いです。)
 
-Githubにあるので作らないで良いです。
+## 4. Run (実行)
 
-## 1.3. Run (実行)
-
-git cloneしてsrc/hello_underworld.rbをどこか好きなところへコピーして以下のように実行してください。
+Please git clone and copy the file, src/hello_underworld.rb, somewhere, and run it as follows. (git cloneしてsrc/hello_underworld.rbをどこか好きなところへコピーして以下のように実行してください。)
 
 ```
 $ ruby hello_underworld.rb
 "Hello, Underworld!"
 ```
 
-上記のように表示されて *hello_underworld.rb* がなくなっていれば正常動作です。
+It scceedes if you see the "Hello, Underworld!" and the source file is gone. (上記のように表示されて *hello_underworld.rb* がなくなっていれば正常動作です。)
 
 Note (注意)
-* 普通はこのような自爆コードは書きません。
-* Rubyに限らず似たようなことはどの言語でもできます。
+* Usually, we do not do like this. (普通はこのような自爆コードは書きません。)
+* It can be implemented also in other languages than Ruby (Rubyに限らず似たようなことはどの言語でもできます。)
 
 ## 1.4. Explanation (解説)
 
-コードの解説をします。
+I will explain the code. (コードの解説をします。)
 
 hello_underworld.rb
 ```
@@ -51,11 +51,11 @@ File.unlink $0
 ```
 
 File.write("file", "code")
-* ファイルにRuby codeを出力しています。
+* It makes a Ruby code with creating a file. (ファイルにRuby codeを出力しています。)
 
 $0
-* これは呼び出したファイル名を表す組み込み変数（グローバル変数）です。
-* ここでは *hello_underworld.rb* になります。
+* This is a global variable which shows the source file name. (これは呼び出したファイル名を表す組み込み変数（グローバル変数）です。)
+* i.e. it actually becomes **hello_underworld.rb""**. (ここでは *hello_underworld.rb* になります。)
 
 File.write($0, "...")
 * つまり、これは呼び出したファイルに上書きして新しいコードを作っています。
@@ -123,7 +123,7 @@ p
 p $0.split('_').map(&:capitalize).join(", ").gsub(/.rb/, '!')
 * 結果、**"Hello, Underworld!"** と表示されます。
 
-# 2. Summary (まとめ)
+## 5. Summary (まとめ)
 
 Remarks (注目するべきポイント)
 * Rubyistは簡単な処理であればメソッドとブロックを横に繋げて一行で書くクセがあります。
