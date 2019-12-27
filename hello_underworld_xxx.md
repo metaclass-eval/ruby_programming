@@ -33,10 +33,10 @@ $ ruby hello_underworld.rb
 "Hello, Underworld!"
 ```
 
-It scceedes if you see the "Hello, Underworld!" and the source file is gone. (上記のように表示されて *hello_underworld.rb* がなくなっていれば正常動作です。)
+It succeeds if you can see the "Hello, Underworld!" and the source file is gone. (上記のように表示されて *hello_underworld.rb* がなくなっていれば正常動作です。)
 
 Note (注意)
-* Usually, we do not do like this. (普通はこのような自爆コードは書きません。)
+* Usually, we do not such a thing deleting itself. (普通はこのような自爆コードは書きません。)
 * It can be implemented also in other languages than Ruby (Rubyに限らず似たようなことはどの言語でもできます。)
 
 ## 1.4. Explanation (解説)
