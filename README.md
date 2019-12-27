@@ -22,15 +22,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ----
 
-## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩)
+## 1. Hello, World! in Ruby - the first Ruby code - (はじめの一歩) [#001]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/hello_world_001.md
 
-## 2. What is Programming language? (プログラミング言語とは何か?)
+## 2. What is Programming language? (プログラミング言語とは何か?) [#002]
 
 TD
 
-## 3. Compare with other languages (他のプログラミング言語との比較)
+## 3. Compare with other languages (他のプログラミング言語との比較) [#003]
 
 TD
 
