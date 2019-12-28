@@ -26,11 +26,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_world_001.md
 
-## [#002] What is Programming language? (プログラミング言語とは何か?)
+## [#002] What is programming language? (プログラミング言語とは何か?)
 
 TD
 
 ## [#003] Compare with other languages (他のプログラミング言語との比較)
+
+TD
+
+## [#004] A road map to a Rubyist (Rubyistへの道)
 
 TD
 
@@ -49,8 +53,6 @@ To be continued (続く)
 ----
 
 BB Plan
-
-* [README in darkside](https://github.com/metaclass-eval/ruby_programming/blob/master/README_.md)
 
 Light-side (真面目な初心者向け）
 * For Beginners (初級編)
