@@ -25,7 +25,7 @@ in the screen as an example when we introduce a programming language. (と画面
 It is assumed that Ruby (interpreter) is installed in your computer in the following explanation. You do not have to anything in advance if you use macOS. (以下、コンピュータにRuby（インタープリタ）がインストールされているという前提で説明をしていきいます。 (macOSを使っているならば前もってする作業は特にありません))
 
 Tips
-* [Why is it not good to use Windows to learn a programming language for the first time? (なぜプログラミング言語を学ぶのにWindowsが適さないのか？)](https://github.com/metaclass-eval/ruby_programming/blob/master/why_not_good_in_windows.md)
+* [Why is it not good to use Windows to learn a programming language for the first time? (なぜプログラミング言語を学ぶのにWindowsが適さないのか？)](https://github.com/metaclass-eval/ruby_programming/blob/master/doc/why_not_good_in_windows.md)
 
 ## 2. Start Terminal (ターミナル起動)
 
