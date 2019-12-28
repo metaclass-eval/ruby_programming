@@ -37,7 +37,7 @@ Note (ご注意)
 
 ## Step 3 Learn Ruby (Ruby習得)
 
-1. Just learn Ruby as usual. I recommned, "The Well-Grounded Rubyist" by David. (普通にRubyを学習します。英語がサクサク読めるならDavidさんの「The Well-Grounded Rubyist」を熟読しましょう。)
+1. Just learn Ruby as usual. I recommned, "The Well-Grounded Rubyist" by David-san. (普通にRubyを学習します。英語がサクサク読めるならDavidさんの「The Well-Grounded Rubyist」を熟読しましょう。)
 
 Note (ご注意)
 * Don't fool around with Python until you master the basic skills of Ruby, otherwise the darkside will go away. (基本技が脳みそに染み付くまでPythonに浮気しないようにします。(同時にPythonを学習すると闇から遠ざかります。)
@@ -46,18 +46,18 @@ Note (ご注意)
 
 This is the most difficult step. Listed in random order. (ここが一番の難関です。以下順不同で構いません。)
 
-1. 関数型言語の習得。(オススメはHaskelですが、Haskelでなくても良いです。)
-2. メタプログラミングの習得。(Paoloさんの「メタプログラミングRuby」を熟読しましょう。)
-3. Rubyのクラス構造を勉強。(Paoloさんの「メタプログラミングRuby」にもわかりやすく載っています。)
-4. Rubyでlambda, block, procの使い方を勉強します。(ググりましょう。)
-5. Self (自己) とは何か？毎日内省（Introspection）します。
-5. Ruby以外の言語を習得します。(なんでもいいです。似て非なる言語という意味でも比較しやすいのでPythonがいいかもしれません。)
+1. Learn a functional language. (I recommend Haskel, but fine also with other functional language.) (関数型言語の習得。オススメはHaskelですが、Haskelでなくても良いです。)
+2. Learn meta-programming. (I recommend, "Meta-Programming Ruby" by Paolo-san.) (メタプログラミングの習得。Paoloさんの「メタプログラミングRuby」を熟読しましょう。)
+3. Learn class structure in Ruby. (Rubyのクラス構造を勉強。Paoloさんの「メタプログラミングRuby」にもわかりやすく載っています。)
+4. Learn more block, lambda, Proc in Ruby. (Rubyでlambda, block, procの使い方を勉強します。ググりましょう。)
+5. Learn other language than Ruby. (It might be better to learn Python to compare each other.) (Ruby以外の言語を習得します。なんでもいいです。似て非なる言語という意味でも比較しやすいのでPythonがいいかもしれません。)
+6. Introspect yourself, think about what is self. (Self (自己) とは何か？毎日内省します。)
 
 Note
-* 矛盾しているように感じるかもしれませんが、他の言語の知識がRubyの闇の深淵の場所を知らせてくれます。
-* 関数型言語の知識がRubyの闇の深淵の扉を開く鍵になります。
+* You may feel contraction to learn Python, but the knowledge about other language sheds light on the way to the darkside. (矛盾しているように感じるかもしれませんが、他の言語の知識がRubyの闇の深淵の場所を知らせてくれます。)
+* The knowledge of functional language may become a key to open the door to the darkside. (関数型言語の知識がRubyの闇の深淵の扉を開く鍵になります。)
 
-## Step 5 ようこそダークサイドへ
+## Step 5 Welcome to the darkside (ようこそダークサイドへ)
 
 * がむしゃらにStep 4の項目を試行錯誤しながら苦痛の日々を耐えて彷徨っているとある日突然パーッと霧が晴れたように感じて目の前が暗くなります。
 * それがダークサイドへ堕ちたサインだと思ってください。(比較的自覚症状は少ないので、気がついたら堕ちていた、ということもよくあるようです。）
