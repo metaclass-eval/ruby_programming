@@ -5,9 +5,9 @@
 
 Note (ご利用上のご注意)
 * It is absolutely not recommended. (決して他人にオススメできるものではありません。)
-* It is usually not what one wants to be. (なりたくてなれるものでもありません。)
-* Rather, it is like what one notices one day. (気づいたらなっていた的です。)
-* Please just go forward the well-grounded Rubyist. It is the shortest way to the darkside. (頑張って普通にwell-groundedなRubyistを目指してください。それが闇に堕ちれる一番の近道です。)
+* It is usually not something one wants to be. (なりたくてなれるものでもありません。)
+* Rather, it is like something one notices one day. (気づいたらなっていた的です。)
+* Just please go forward to the well-grounded Rubyist. It is the best way to the darkside. (頑張って普通にwell-groundedなRubyistを目指してください。それが闇に堕ちれる一番の近道です。)
 * Please do not miss the chance when you fall in the dark. You will definitely get the chance some day. (いつか闇の深淵が垣間見れる瞬間が必ず訪れるのでそのチャンスを逃さず足を踏み外してください。)
 * I am not responsible for any trouble like that you may not reach the darkside. (この通りに行なって闇に墜ちることができなくても一切の責任を負いませんのでご了承ください。)
 * You may not get a job position even if you become a Black Rubyist. (Black Rubyistになっても就職口はありません。)
