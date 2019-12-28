@@ -5,7 +5,7 @@
 
 Note (ご利用上のご注意)
 * It is absolutely not recommended. (決して他人にオススメできるものではありません。)
-* It is not what one wants to be. (なりたくてなれるものでもありません。)
+* It is usually not what one wants to be. (なりたくてなれるものでもありません。)
 * Rather, it is like what one notices one day. (気づいたらなっていた的です。)
 * Please just go forward the well-grounded Rubyist. It is the shortest way to the darkside. (頑張って普通にwell-groundedなRubyistを目指してください。それが闇に堕ちれる一番の近道です。)
 * Please do not miss the chance when you fall in the dark. You will definitely get the chance some day. (いつか闇の深淵が垣間見れる瞬間が必ず訪れるのでそのチャンスを逃さず足を踏み外してください。)
