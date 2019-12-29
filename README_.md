@@ -1,9 +1,9 @@
 # Ruby Programming -yet another tutorial to the darkside-
 
 Note (ご使用上のご注意)
-* This site gives you articles of how to use Ruby in more Ruby-like mannar regardless of efficiency. (このサイトは普通のRubyistを対象として、効率を無視して、よりRubyらしいRubyの使い方の解説記事を掲載してきます。)
-* The targeted reader should have Unix knowledge at a certain level. (Unixのある程度の知識をを想定して解説を書いています。Unixコマンドの解説はざっくり省略します。)
-* I would like to help such a person who wants to learn Ruby more deeply and at the same time to peep the darkside with feeling the mysterious language philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyらしいプログラミングを楽しみつつ、Rubyの深淵を覗いてみたい方を応援します。)
+* This site gives you articles of how to use Ruby in more Ruby-like manner regardless of efficiency and maintainability. (このサイトは普通のRubyistを対象として、効率や保守性よりも、よりRubyらしいRubyの使い方の解説記事を掲載してきます。)
+* The targeted reader should have Unix knowledge at a certain level. (Unixのある程度の知識をを想定して解説を書いています。)
+* I would be grateful I could help such a person who wants to learn Ruby more deeply and at the same time to peep the darkside with deciphering the mysterious and esoteric language philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyの言語思想を読み解きつつ、Rubyの深淵を覗いてみたい方の一助になれば幸いです。)
 
 
 Contents
@@ -21,7 +21,7 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_black_ruby_xxx.md
 
-## Dark Road Map -a Road to a Black Rubyist- [996#]
+## A Road Map to the dark -I am who I' meant to be, this is me- [996#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_xxx.md
 
