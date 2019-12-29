@@ -55,7 +55,7 @@ To be continued (続く)
 
 BB Plan
 
-Light-side (真面目な初心者向け）
+Light-side (真面目なプログラミング言語初心者向け）
 * For Beginners (初級編)
 	* Ruby The most important concepts Top 10 (必須概念トップ10)
 	* Ruby The most important grammar Top 10 (必須文法トップ10)
@@ -69,15 +69,15 @@ Light-side (真面目な初心者向け）
 	* Text data editing (テキストデータ編集)
 
 Red-side (ちょっと萌えてきた人向け)
-* How to use Github in the darkside (Githubのdarkな使い方)
-* How to use Redmine in the darkside (Redmineのdarkな使い方)
-* How to use Ruby on Rails in the darkside (Ruby on Railsのdarkな使い方)
-* How to set up .zshrc in the darkside (z shellのdarkな設定)
-* How to set up .vimrc in the darkside (vimのdarkな設定)
-* Dark Statistics (統計処理編)
-* Dark Machine Learning (機械学習編)
-* Dark Bioinformatics (生物情報学編)
-* Dark Evolution (進化学編)
+* How to use Github passionately (Githubの熱い使い方)
+* How to use Redmine passionately (Redmineの熱い使い方)
+* How to use Ruby on Rails passionately (Ruby on Railsの熱い使い方)
+* How to set up .zshrc passionately (z shellの熱い設定)
+* How to set up .vimrc passionately (vimの熱い設定)
+* Passionate Statistics (熱い統計処理編)
+* Passionate Machine Learning (熱い機械学習編)
+* Passionate Bioinformatics (熱い生物情報学編)
+* Passionate Evolution (熱い進化学編)
 
 Dark-side (闇に堕ちたい人向け）
 * Hello, Underworld! in Ruby (闇へのはじめの一歩)

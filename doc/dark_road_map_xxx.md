@@ -1,7 +1,7 @@
 
-# A Road Map to the dark -I am who I'm meant to be, this is me.- [996#]
+# A road map to the darkside [996#]
 
-(闇へのロードマップ -だって、これが私なんだもの-)
+(ダークサイドへのロードマップ)
 
 *by Metaclass Eval*
 

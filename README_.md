@@ -21,7 +21,7 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_black_ruby_xxx.md
 
-## A Road Map to the dark -I am who I' meant to be, this is me- [996#]
+## A road map to the darkside (ダークサイドへのロードマップ) [996#]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_xxx.md
 
