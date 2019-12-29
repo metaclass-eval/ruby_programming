@@ -1,5 +1,5 @@
 # Ruby Programming -yet another tutorial-
-(Ruby プログラミング -もう一つのチュートリアル-)
+(Ruby プログラミング -さらにもう一つの別のチュートリアル-)
 
 TD
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
