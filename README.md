@@ -69,15 +69,15 @@ Light-side (真面目な初心者向け）
 	* Text data editing (テキストデータ編集)
 
 Red-side (ちょっと萌えてきた人向け)
-* How to use Github in Black (Githubのblackな使い方)
-* How to use Redmine in Black (Redmineのblackな使い方)
-* How to use Ruby on Rails in Black (Ruby on Railsのblackな使い方)
-* How to set up .zshrc for Black Rubyist (黒Ruby使いのためのzシェル設定)
-* How to set up .vimrc for Black Rubyist (黒Ruby使いのためのvim設定)
-* Black Statistics (黒Ruby統計処理編)
-* Black Machine Learning (黒Ruby機械学習編)
-* Black Bioinformatics (黒Ruby生物情報学編)
-* Black Evolution (黒Ruby進化学編)
+* How to use Github in the darkside (Githubのdarkな使い方)
+* How to use Redmine in the darkside (Redmineのdarkな使い方)
+* How to use Ruby on Rails in the darkside (Ruby on Railsのdarkな使い方)
+* How to set up .zshrc in the darkside (z shellのdarkな設定)
+* How to set up .vimrc in the darkside (vimのdarkな設定)
+* Dark Statistics (統計処理編)
+* Dark Machine Learning (機械学習編)
+* Dark Bioinformatics (生物情報学編)
+* Dark Evolution (進化学編)
 
 Dark-side (闇に堕ちたい人向け）
 * Hello, Underworld! in Ruby (闇へのはじめの一歩)
@@ -93,7 +93,3 @@ Dark-side (闇に堕ちたい人向け）
 	* Recursive function + class (再帰関数と再帰クラス)
 	* Dynamical definition + dispatching (動的定義と呼び出し)
 
-
-
-
-Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
