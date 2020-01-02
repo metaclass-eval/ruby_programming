@@ -51,8 +51,8 @@ Note
 * The **$** is called *prompt* (shell prompt, command line prompt) which means that it is ready to run a command in Unix. (この **$** はUnixで主に使われるプロンプト（コマンド入力待機状態）を表す記号です。)
 * **echo** is a Unix command to show text in a screen. (**echo** は画面に文字列を表示するUnixコマンドです。)
 * The string after the **echo** with **''** (single quatation) will be shown in the next line after the command. (**echo** 以後、**''** (シングルクォーテーション) で囲まれた文字列を次の行に表示します。)
-* **>** is a special symbol used in Unix, which switch the output into a file instead of showing the text in the screen. (**>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。)
-* The output file will be generated, and overwritten if the same file already exists. (もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。)
+* **>** is a special symbol used in Unix, which switches the output into a file instead of showing the text in the next line. (**>** はUnixで使われる特殊文字の一つで、出力される文字列を画面（次の行ではなく）指定したファイルに保存します。)
+* The output file will be generated, and the file is overwritten if the same file already exists. (もしファイルが存在しなければ新規に作成され、すでに存在している場合は上書きされます。)
 * Please type **ls** if you want to check if the file is created. (ファイルが作成されたかどうかを確認するには **ls** とコマンドをタイプします。)
 
 ```
@@ -68,8 +68,8 @@ $ open .
 Now it is done to make a Ruby source code. (これで、Rubyプログラミングコード (ソースコード) が完成しました。)
 
 Note (ご注意)
-* It is convention to put **.rb** (extension) to the file name for a Ruby source code. (Rubyのソースコードは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。)
-* The **hello_world.rb** contains only *text data*, so that you can open the file by, e.g., MS Word or TextEdit (the default text editor in macOS. (**hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。)
+* It is convention to put **.rb** (extension) to the file name for a Ruby source code. (Rubyのソースコードのファイルは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。)
+* The **hello_world.rb** contains only *text data*, so that you can open the file by using, e.g., MS Word or TextEdit (the default text editor in macOS. (**hello_world.rb** は *テキストデータ* (文字列だけのデータ) になるので、MS WordやmacOS標準のTextEditでも開く (見る) ことができます。)
 
 ## 4. Run (実行)
 
@@ -80,7 +80,7 @@ $ ruby hello_world.rb
 ```
 
 Note (ご注意)
-* Please do not type **$**. (前回と同様に最初の **$** は入力しないでください。)
+* Please do not type **$**, either. (前回と同様に最初の **$** は入力しないでください。)
 
 If you can see in the screen (Rubyプログラミングコードが実行され画面に)
 
@@ -94,14 +94,14 @@ Hello, World!
 
 In this tutorial (このチュートリアルでは)
 
-1. You made a Ruby source code by using echo Unix command (echoコマンドを使ってRubyソースコードを作成しました。) 
+1. You made a Ruby source code by using **echo** Unix command (echoコマンドを使ってRubyソースコードを作成しました。) 
 2. You ran the Ruby code and showed **Hello, World!** in the screen. (作ったソースコードを実行して **Hello, World!** と画面に表示しました。)
 
 ![hello_world](https://github.com/metaclass-eval/ruby_programming/blob/master/png/hello_world.png)
 
 Note (補足)
 * Usually we make a source code (file) by using a text editor. (通常は何らかのテキストエディタを用いてソースコードを作成します。)
-* In this tutorial, the way not to use a text editor for the simple explanation. (今回は簡単な紹介のためにテキストエディタを使わない方法を紹介しました。)
+* In this tutorial, an way not to use a text editor for the simple example was shown. (今回は簡単な紹介のためにテキストエディタを使わない方法を紹介しました。)
 
 Thank you for reading this tutorial. (お疲れ様でした。)
 
