@@ -2,8 +2,8 @@
 (Ruby プログラミング -さらにもう一つの別のチュートリアル-)
 
 TD
-* Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/en
-* 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/jp
+* Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
+* 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
 
 Note (ご利用上のご注意)
 * This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
