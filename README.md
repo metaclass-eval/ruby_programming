@@ -14,7 +14,7 @@ Note (ご利用上のご注意)
 Contents
 =================
 
-1. [Hello, World\! in Ruby \- the first Ruby code \- (はじめの一歩) [\#001]](#hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9-001)
+1. [Hello, World\! in Ruby \- the first Ruby programming \- (はじめの一歩) [\#001]](#hello-world-in-ruby---the-first-ruby-code---%E3%81%AF%E3%81%98%E3%82%81%E3%81%AE%E4%B8%80%E6%AD%A9-001)
 2. [A road map to a Rubyist (Rubyistへの道, Ruby言語学習手順) [\#002]](#a-road-map-to-a-rubyist-rubyist%E3%81%B8%E3%81%AE%E9%81%93-ruby%E8%A8%80%E8%AA%9E%E5%AD%A6%E7%BF%92%E6%89%8B%E9%A0%86-002)
 3. [What is programming language? (プログラミング言語とは何か?) [\#003]](#what-is-programming-language-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B-003)
 4. [Compare with other languages (他のプログラミング言語との比較) [\#004]](#compare-with-other-languages-%E4%BB%96%E3%81%AE%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83-004)
@@ -23,7 +23,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ----
 
-## Hello, World! in Ruby - the first Ruby code - (はじめの一歩) [#001]
+## Hello, World! in Ruby - the first Ruby programming - (はじめの一歩) [#001]
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_world_001.md
 
@@ -51,45 +51,4 @@ To be continued (続く)
 * []: the place where a reference will be inserted
 * IMG: the place where a picture/figure will be inserted
 
-----
-
-BB Plan
-
-Light-side (真面目なプログラミング言語初心者向け）
-* For Beginners (初級編)
-	* Ruby The most important concepts Top 10 (必須概念トップ10)
-	* Ruby The most important grammar Top 10 (必須文法トップ10)
-	* Ruby The most frequently used idioms Top 10 (頻出熟語トップ10)
-* Programming Linguistics (プログラミング言語学)
-	* History (歴史編)
-	* Philosophy (哲学編)
-	* Comparative linguistics (比較言語学編)
-* Practical Programming (実用編)
-	* Making bash script by Ruby script (バッチスクリプト作成)
-	* Text data editing (テキストデータ編集)
-
-Red-side (ちょっと萌えてきた人向け)
-* How to use Github passionately (Githubの熱い使い方)
-* How to use Redmine passionately (Redmineの熱い使い方)
-* How to use Ruby on Rails passionately (Ruby on Railsの熱い使い方)
-* How to set up .zshrc passionately (z shellの熱い設定)
-* How to set up .vimrc passionately (vimの熱い設定)
-* Passionate Statistics (熱い統計処理編)
-* Passionate Machine Learning (熱い機械学習編)
-* Passionate Bioinformatics (熱い生物情報学編)
-* Passionate Evolution (熱い進化学編)
-
-Dark-side (闇に堕ちたい人向け）
-* Hello, Underworld! in Ruby (闇へのはじめの一歩)
-* A Road to a Black Rubyist (黒Ruby使いへの道)
-	* Rubyist vs. Ruby hacker (RubyistとRuby hackerの違い)
-	* Then Zen of Black Rubyist (黒Ruby使いの禅)
-	* A road map to the dark (黒Ruby使いのためのロードマップ (仮))
-* The Class (Rubyのクラスのお話)
-* Bootstrap (ブートストラップのお話）
-* Meta-programming (メタプログラミング)
-  * Open class + Mokey patching (お猿さん的応急処置)
-	* Block + Lambda (ブロックとラムダ関数)
-	* Recursive function + class (再帰関数と再帰クラス)
-	* Dynamical definition + dispatching (動的定義と呼び出し)
 
