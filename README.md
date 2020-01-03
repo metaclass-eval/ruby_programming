@@ -3,7 +3,7 @@
 
 TD
 * Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
-* ![jp](png/jp.png?raw=true "jp") 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
+* <img src="png/jp.png" width="20"> 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
 
 Note (ご利用上のご注意)
 * This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
