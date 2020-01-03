@@ -2,7 +2,7 @@
 (Ruby プログラミング -さらにもう一つの別のチュートリアル-)
 
 TD
-* Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
+* <img src="png/en.png" width="20"> Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
 * <img src="png/jp.png" width="20"> 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
 
 Note (ご利用上のご注意)
