@@ -44,9 +44,9 @@ To be continued (続く)
 ## Abbreviations
 
 * TD: ToDo
-* BB: Brainstroming Bullets 
-* TDBB: TD + BB
-* PD: Pending
+* BD: Brain Dump
+* TDBD: TD + BD
+* PD: PenDing
 * TOC: the place where the Table Of Contents will be inserted
 * []: the place where a reference will be inserted
 * IMG: the place where a picture/figure will be inserted
