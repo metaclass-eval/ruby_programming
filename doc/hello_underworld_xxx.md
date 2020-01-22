@@ -43,7 +43,7 @@ $ ruby hello_underworld.rb
 It succeeds if you can see the "Hello, Underworld!" and the source file is gone. (上記のように表示されて *hello_underworld.rb* がなくなっていれば正常動作です。)
 
 Note (注意)
-* Usually, we do not such a thing deleting itself. (普通はこのような自爆コードは書きません。)
+* Usually, we do not such a suisiding, i.e. deleting itself. (普通はこのような自爆コードは書きません。)
 * It can be implemented also in other languages than Ruby (Rubyに限らず似たようなことはどの言語でもできます。)
 
 ## 5. Explanation (解説)
@@ -173,7 +173,7 @@ P.S.
 * I would be glad if you could enjoy the code. (楽しんでいただけたら幸いです。)
 * Please do not hesitate to leave you comments in the issue. (もしご質問や誤字脱字や間違え、叱咤激励等ございましたらissueに書いていただけると幸いです。)
 
-Thank you for reading this tutorial. See you, next. (お疲れ様でした。)
+Thank you for reading this tutorial. See you, next time. (お疲れ様でした。)
 
 *by Metaclass Eval*
 
