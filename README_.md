@@ -3,7 +3,7 @@
 Note (ご使用上のご注意)
 * This site gives you articles of how to use Ruby in more Ruby-like manner regardless of efficiency and maintainability. (このサイトは普通のRubyistを対象として、効率や保守性よりも、よりRubyらしいRubyの使い方の解説記事を掲載してきます。)
 * The targeted reader should have Unix knowledge at a certain level. (Unixのある程度の知識をを想定して解説を書いています。)
-* I would be grateful I could help such a person who wants to learn Ruby more deeply and at the same time to peep the darkside with deciphering the mysterious and esoteric language philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyの言語思想を読み解きつつ、Rubyの深淵を覗いてみたい方の一助になれば幸いです。)
+* I would be grateful if this site could help such a person who wants to learn Ruby more deeply and at the same time to peep the darkside with deciphering the esoteric language philosophy of Ruby. (Rubyをもっと深く勉強して、Rubyの言語思想を読み解きつつ、Rubyの深淵を覗いてみたい方の一助になれば幸いです。)
 
 
 Contents
