@@ -6,10 +6,10 @@ TD
 * <img src="png/jp.png" width="20"> 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
 
 Note (ご利用上のご注意)
-* This site describes 1. how to use Ruby and 2. what to do in Ruby for a programming language beginner. (このサイトはプログラミング言語初心者を対象としてRuby言語を一から習得する解説記事を掲載します。)
+* This site describes 1. how to do programming and 2. what to do in programming, through programming in Ruby for a programming language beginner. (このサイトは実際にプログラミングすることを通してプログラミング言語初心者を対象としてRuby言語を使って一からプログラミングを習得する解説記事を掲載します。)
 * The documents are written based on the Unix & macOS environment, not Windows, including Unix knowledge. (UnixおよびmacOS環境を想定して解説を書いています。)
 * I would like to help such a person who wants to learn a programming language and at the same time to learn the technical terms in English to be ambicious to work in the world in future. (プログラミング言語を勉強しながら同時に関連する英語も勉強して将来海外でプログラマーとして働きたい人を応援します。)
-* In contract, I would be also very glad if I could help you to learn Ruby and Japanese tegether. (逆に、日本（文化、日本語）に興味があって、Rubyを勉強しながら日本語も勉強したい人のお役に立てれば幸いです。)
+* In contract, I would be also very glad if I could help you to learn Ruby and Japanese tegether. (逆に、日本（文化、日本語）に興味があって、Ruby言語を勉強しながら日本語も勉強したい人のお役に立てれば幸いです。)
 
 Contents
 =================
