@@ -12,19 +12,19 @@ Contents
 
 ## Hello, Underworld! in Ruby - the first step to the darkside - (闇へのはじめの一歩) [999#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_underworld_xxx.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_underworld_999.md
 
 ## Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？) [998#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/rubyist_vs_ruby_hacker_xxx.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/rubyist_vs_ruby_hacker_998.md
 
 ## The Zen of Black Rubyist (Black Rubyistのための禅) [997#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_black_ruby_xxx.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_black_ruby_997.md
 
 ## A road map to the darkside (ダークサイドへのロードマップ) [996#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_xxx.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_996.md
 
 
 BB Plan
