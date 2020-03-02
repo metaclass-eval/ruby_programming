@@ -1,5 +1,5 @@
 # The Well-Undergrounded Rubyist -yet another tutorial to the darkside-
-(しっかりと堕ちたRubyist -さらにもう一つの闇に落ちるためのチュートリアル-)
+(闇に堕ちたRubyist -さらにもう一つの闇に落ちるためのチュートリアル-)
 
 Note (ご使用上のご注意)
 * This site gives you articles of how to use Ruby in more Ruby-like manner regardless of efficiency and maintainability. (このサイトは普通のRubyistを対象として、効率や保守性よりも、よりRubyらしいRubyの使い方の解説記事を掲載してきます。)
