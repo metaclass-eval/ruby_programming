@@ -1,7 +1,7 @@
 
 # Rubyist vs. Ruby hacker (RubyistとRuby hackerの違いとは何か？) [998#]
 
-matzさんによると
+by matz (matzさんによると)
 * http://blade.nagaokaut.ac.jp/cgi-bin/scat.rb/ruby/ruby-list/2908
 
 ## 1. Rubyist
