@@ -12,6 +12,7 @@ The person who
 * writes a book of ruby (rubyの本を書く人)
 * writes an email to thank to matz (rubyの作者に励ましのお便りを書く人)
 * matz-san (rubyの作者)
+.
 
 ## 2. Ruby hacker
 
@@ -22,6 +23,7 @@ The person who
 * uses ruby in practice at certain level (rubyで実用的な(ある程度以上の規模の)プログラムを書く人)
 * make a complicated ruby code that no one understand (rubyで他人が見てもわけが分からないスクリプトを書く人)
 * matyz-san (rubyの作者)
+.
 
 ## 3. Black Rubyist
 
