@@ -12,7 +12,7 @@ Note (ご利用上のご注意)
 * Just please go forward to the well-grounded Rubyist. It is the best way to the darkside. (頑張って普通にwell-groundedなRubyistを目指してください。それが闇に堕ちれる一番の近道です。)
 * Please do not miss the chance when you fall in the dark. You will definitely get a chance some day. (いつか闇の深淵が垣間見れる瞬間が必ず訪れるのでそのチャンスを逃さず足を踏み外してください。)
 * I am not responsible for any trouble like that you may not be able to fall into the darkside. (この通りに行なって闇に墜ちることができなくても一切の責任を負いませんのでご了承ください。)
-* You may not get a job position even if you become a Dark Rubyist. (Dark Rubyistになっても就職口はありません。)
+* You may not able to get a job position even if you become a Dark Rubyist. (Dark Rubyistになっても就職口はありません。)
 
 Based on those above, I could tell you one of the shortest ways to get to the darkside. (以上のことを踏まえまして、私自身の経験からプログラミング初学者がRubyの深淵に近づくための最速ルート (の一つ) をご紹介します。)
 
