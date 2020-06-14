@@ -12,7 +12,7 @@ Note (ご利用上のご注意)
 * Just please go forward to the well-grounded Rubyist. It is the best way to the darkside. (頑張って普通にwell-groundedなRubyistを目指してください。それが闇に堕ちれる一番の近道です。)
 * Please do not miss the chance when you fall in the dark. You will definitely get a chance some day. (いつか闇の深淵が垣間見れる瞬間が必ず訪れるのでそのチャンスを逃さず足を踏み外してください。)
 * I am not responsible for any trouble like that you may not be able to fall into the darkside. (この通りに行なって闇に墜ちることができなくても一切の責任を負いませんのでご了承ください。)
-* You may not get a job position even if you become a Black Rubyist. (Black Rubyistになっても就職口はありません。)
+* You may not get a job position even if you become a Dark Rubyist. (Dark Rubyistになっても就職口はありません。)
 
 Based on those above, I could tell you one of the shortest ways to get to the darkside. (以上のことを踏まえまして、私自身の経験からプログラミング初学者がRubyの深淵に近づくための最速ルート (の一つ) をご紹介します。)
 
@@ -34,7 +34,7 @@ Based on those above, I could tell you one of the shortest ways to get to the da
 
 Note (ご注意)
 * These are not one day tasks, so just please keep doing every day and learn by body and mind. (これらは一朝一夕でできるものではないので日々使いながら慣れて身体で覚えていきましょう。)
-* There are much more English sites than Japanese sites. No English, No Black Ruby life. (日本語のサイトよりも英語のサイトの数が圧倒的に多いです。喋れなくてもいいですがサクサク読めるようにはなりましょう。)
+* There are much more English sites than Japanese sites. No English, No Dark Ruby life. (日本語のサイトよりも英語のサイトの数が圧倒的に多いです。喋れなくてもいいですがサクサク読めるようにはなりましょう。)
 * You will work 10 times faster and will have 10 times more fun in your daily virtual life without a mouse. (このご時世なので、全部ターミナルでは操作できませんが、マウス操作は必要最低限にしましょう。単位時間あたりの作業量が10倍に増えて、人生が10倍楽しくなります。)
 
 ## Step 3 Learn Ruby (Ruby習得)
