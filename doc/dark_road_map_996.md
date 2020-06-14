@@ -68,7 +68,7 @@ Note
 
 P.S.
 * This is just my opinion based on my own experience. (あくまで個人的経験に基づく見解です。)
-* There might be another load map to the Well-Grounded Meta Rubyist as an upper job class?! beyond Well-Undergrounded Rubyist+Well-Grounded Rubyist...
+* There might be another load map to the Meta-Well-Grounded Rubyist as an upper job class?! beyond Well-Undergrounded Rubyist+Well-Grounded Rubyist...
 
 *by Metaclass Eval*
 
