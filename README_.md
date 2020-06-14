@@ -27,7 +27,7 @@ Contents
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_996.md
 
 
-BB Plan
+BD Plan
 =================
 
 
