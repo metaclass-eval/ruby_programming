@@ -25,7 +25,7 @@ The person who
 * matyz-san (rubyの作者)
 .
 
-## 3. Black Rubyist
+## 3. Dark Rubyist
 
 *by Metaclass Eval*
 
