@@ -18,9 +18,9 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/rubyist_vs_ruby_hacker_998.md
 
-## The Zen of Black Rubyist (Black Rubyistのための禅) [997#]
+## The Zen of Dark Rubyist (Dark Rubyistのための禅) [997#]
 
-* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_black_ruby_997.md
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_of_dark_ruby_997.md
 
 ## A road map to the darkside (ダークサイドへのロードマップ) [996#]
 
@@ -57,9 +57,9 @@ Red-side (ちょっと萌えてきた人向け)
 
 Dark-side (闇に堕ちたい人向け）
 * Hello, Underworld! in Ruby (闇へのはじめの一歩)
-* A Road to a Black Rubyist (黒Ruby使いへの道)
+* A Road to a Dark Rubyist (黒Ruby使いへの道)
 	* Rubyist vs. Ruby hacker (RubyistとRuby hackerの違い)
-	* Then Zen of Black Rubyist (黒Ruby使いの禅)
+	* Then Zen of Dark Rubyist (黒Ruby使いの禅)
 	* A road map to the dark (黒Ruby使いのためのロードマップ (仮))
 * The Class (Rubyのクラスのお話)
 * Bootstrap (ブートストラップのお話）
