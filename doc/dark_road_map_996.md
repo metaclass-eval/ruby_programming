@@ -48,7 +48,7 @@ Note (ご注意)
 
 Listed in random order. (以下順不同で構いません。)
 
-1. Learn a functional language. (I recommend Haskel, but fine also with other functional language.) (関数型言語の習得。オススメはHaskelですが、Haskelでなくても良いです。)
+1. Learn a functional language. (I recommend Haskell, but fine also with other functional language.) (関数型言語の習得。オススメはHaskellですが、Haskellでなくても良いです、RubyistならElixirは覚えやすいと思います)
 2. Learn meta-programming. (I recommend, "Meta-Programming Ruby" by Paolo-san.) (メタプログラミングの習得。Paoloさんの「メタプログラミングRuby」を熟読しましょう。)
 3. Learn the class structure of Ruby. (Rubyのクラス構造を勉強。Paoloさんの「メタプログラミングRuby」にもわかりやすく載っています。)
 4. Learn more block, lambda, proc in Ruby. (Rubyでlambda, block, procの使い方を勉強します。)
