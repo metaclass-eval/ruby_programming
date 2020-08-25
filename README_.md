@@ -26,6 +26,9 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/dark_road_map_996.md
 
+## When you gaze long into the abyss (深淵を覗く時) [995#]
+
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/when_you_gaze_abyss_995.md
 
 BD Plan
 =================
