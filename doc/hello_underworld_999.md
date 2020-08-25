@@ -1,4 +1,4 @@
-# Hello, Underworld! in Black Ruby (闇へのはじめの一歩) [999#]
+# Hello, Underworld! in Dark Ruby (闇へのはじめの一歩) [999#]
 
 1. [First of all (はじめに)](#1-first-of-all-%E3%81%AF%E3%81%98%E3%82%81%E3%81%AB)
 2. [Start Terminal (ターミナル起動)](#2-start-terminal-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB%E8%B5%B7%E5%8B%95)
