@@ -37,22 +37,16 @@ p Kernel.class            #=> Module
 p Module.class            #=> Class
 ```
 
-Object#class, Class#superclass, Module#ancestors, Module#included_modules are usuful methods for relfection. (以下のメソッドはリフレクションするのにとても便利だObject#class, Class#superclass, Module#ancestors, Module#included_modules。)
-
-最初に与えられるselfはソースコード全体を表すトップレベルの自身を表すオブジェクト（main）だ。しかし、面白いことにそれ（mainオブジェクト）を直接参照することはできず、必ず自分（selfオブジェクト）を通すことでしか見ることができない。
+* Object#class, Class#superclass, Module#ancestors, Module#included_modules are usuful methods for relfection. (以下のメソッドはリフレクションするのにとても便利だObject#class, Class#superclass, Module#ancestors, Module#included_modules。)
+* The first *self* that is given by Ruby God is the top-level object (main). (最初にRubyの神によって与えられる*self*はソースコード全体自身を表す（トップレベル）を表すオブジェクト（main）だ。)
+* But interestingly, main itself cannot be seen and we can know it only through the *self*. (しかし、面白いことにそれ自身（mainオブジェクト）を直接参照することはできず、必ず自分（selfオブジェクト）を通すことでしか見ることができない。)
 
 ## 2. Guidance to the Class structure in Ruby (Rubyのクラス構造)
 
-
-まず、簡単にオブジェクト指向の世界をおさらいしておこう。
-* 世界は全てオブジェクトによって構成されている。
-* オブジェクトの設計図に相当するモノがクラス、クラスを元に実体化したモノがインスタンスである。
-* クラス（設計図）は一つであっても、同じクラスから実体化されたインスタンスは複数存在しうる。
-* 言い方を変えれば、複数のインスタンスに共通する性質として一般化（汎化/抽象化）したものがクラス、クラスを特殊化（具体化）したものがインスタンスだと言うこともできる。
-* クラスにはインスタンスの振る舞いを決定するメソッドが定義されている。
-* つまり、実体化されたインスタンスはクラスで定義されたメソッドを実行する（呼び出す）ことができる。
-* あるクラスの性質を引き継いで別のクラスを作ることもできる。これを「継承」と言う。この元になったクラスをスーパークラス、新しく作られたクラスをサブクラスと呼ぶ。
-
+First, let's review the technical terms in Object Oriented World. (まず、簡単にオブジェクト指向の世界をおさらいしておこう。)
+* The world consists of Objects. (世界は全てオブジェクトによって構成されている。)
+* The design of object is *class*, and the instantiated object is called *instance*. (オブジェクトの設計図に相当するモノがクラス、クラスを元に実体化したモノがインスタンスである。)
+* A new *class* can be defined by referring to another *class*. This is called **inheritance**. (あるクラスの性質を引き継いで別のクラスを作ることもできる。これを継承と言う。)
 
 class_instance.rb
 ```ruby
@@ -67,20 +61,24 @@ instance.hello
 #=> Hello, World!!
 ```
 
-ここから少しずつ深淵に少し近づいていくことにしよう。用心して進みながらどこかで足を踏み外して欲しい。
-* まず、クラスもインスタンスもどちらもオブジェクトである。
-* そのため、クラスもその設計図に相当するクラスがあり、これをメタクラスと呼ぶ。
-* メタクラスにもさらにクラスがある。
-* つまり、クラスにはクラス階層がある。
-* Rubyには、もう一つクラスに似たモノにモジュールがある。
-* モジュールはクラス同様にメソッドを定義できるがインスタンスを生成することはできない。
-* 代わりに、クラスに含むことができる。この機能によって複数のクラスに共通するメソッドを定義できる。
+Ok. Let's move onto the darkside slowly. Please be careful and step off accidentaly at some point. (ここから少しずつ深淵に少し近づいていくことにしよう。用心して進みながらどこかで足を踏み外して欲しい。)
+* *class* and *instance* is object. (まず、クラスもインスタンスもどちらもオブジェクトである。)
+* Therefore, There is a *class*  of a *class*, that is called *meta-class*. (そのため、クラスもその設計図に相当するクラスがあり、これをメタクラスと呼ぶ。)
+* i.e. There are two relationships: 1) inheritance (subclass-superclass), 2) instance-class hierarchy. (つまり、クラスには、継承関係とは別にクラス階層関係がある。)
+* In addtion, in Ruby, there is another object, *module*. (Rubyには、もう一つクラスに似たモノにモジュールがある。)
+* *module* can define methods as well as *class*, but *module* cannnot inherit either another *module* or generte an instance. (モジュールはクラス同様にメソッドを定義できるが継承することやインスタンスを生成することはできない。)
+* Instead, *module* can ben included in a *class*. This is called **Min-in**. (代わりに、クラスに含むことができる。この機能をMix-inと呼ぶ。)
 
-以上のことを踏まえて、selfを見つめることによって、世界は以下のようなクラス階層関係で成り立っていることが見えてくる。
+When you gaze into *self* again accodingly, then you can find that the world consists of the mutually related objects. ( 以上のことを踏まえて、selfを見つめると、Rubyの世界は以下のような循環するクラス継承/階層関係で成り立っていることが見えてくる。)
+
+![Object World](png/object_world.png)
+
+Note
+* What may interest to you is that we cannot know the origin of *self* only by gazing into the well-structured world. It is like the origin of life. Which is first, egg or chicken? (興味深いことの一つは、すでに構築された世界を覗いてもselfの起源がわからない点である。 まるで生命の起源を考えているような気分になる。タマゴが先かニワトリが先か。)
 
 ## 3. When you gaze long into the self (自分自身を見つめる時)
 
-**You gaze also into the abyss.** (それは、深淵を覗いていることにもなる。)
+**You gaze also into the abyss.** (それは、同時に深淵を覗いていることにもなる。)
 
 *by Metaclass Eval*
 
