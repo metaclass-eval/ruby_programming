@@ -35,6 +35,7 @@ p self.class.included_modules
 p PP::ObjectMixin.class   #=> Module
 p Kernel.class            #=> Module
 p Module.class            #=> Class
+p Module.superclass       #=> Object
 ```
 
 * Object#class, Class#superclass, Module#ancestors, Module#included_modules are usuful methods for relfection. (以下のメソッドはリフレクションするのにとても便利だObject#class, Class#superclass, Module#ancestors, Module#included_modules。)
