@@ -73,7 +73,7 @@ Ok. Let's move onto the darkside slowly. Please be careful and step off accident
 
 When you gaze into *self* again accodingly, then you can find that the world consists of the mutually related objects. ( 以上のことを踏まえて、selfを見つめると、Rubyの世界は以下のような循環するクラス継承/階層関係で成り立っていることが見えてくる。)
 
-![Object World](png/object_world.png)
+[Object World](png/object_world.png)
 
 Note
 * What may interest to you is that we cannot know the origin of *self* only by gazing into the well-structured world. It is like the origin of life. Which is first, egg or chicken? (興味深いことの一つは、すでに構築された世界を覗いてもselfの起源がわからない点である。 まるで生命の起源を考えているような気分になる。タマゴが先かニワトリが先か。)
