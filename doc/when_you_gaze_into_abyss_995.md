@@ -12,7 +12,7 @@
 
 Probably. The most interesting thing in the world is *self*, because I know myself exists in this world but I do not know what the self is.  (おそらく世界で最も興味深いことは自分である、なぜなら私は自分がこの世に存在していることを知っているけれども、私は自分が何なのかを知らないからだ。)
 
-If you want to gaze into the abyss, you may need to begin with gazing into the *self*. (深淵を覗こうと思ったら、まずは自分自身を見つめることから始めなければならないかもしれない。) And the reflection (meta-recognition) helps it. (その時に役立つのがリフレクション（メタ認知）だ。)
+If you want to gaze into the abyss, you may need to begin with gazing into the *self*. (深淵を覗こうと思ったら、まずは自分自身の心の中を覗くことから始めなければならないかもしれない。) And the reflection (meta-recognition) helps it. (その時に役立つのがリフレクション（メタ認知）だ。)
 
 what_is_self.rb
 ```ruby
@@ -80,7 +80,7 @@ Note
 * It is like the origin of life. Which is first, egg or chicken? *class* or *instance*? (まるで生命の起源を考えているような気分になる。タマゴが先かニワトリが先か?クラスが先かインスタンスが先か?)
 * Maybe you need to go into the chaos before the world was born if you want to know the origin of the *self*. (もし、自分自身の起源を知りたければ、おそらく世界が誕生する前の混沌に足を踏み入れなければならないだろう。)
 
-## 3. When you gaze long into the self (自分自身を見つめる時)
+## 3. When you gaze long into the self (自身の心の中を覗く時)
 
 **You gaze also into the abyss.** (それは、同時に深淵を覗いていることにもなる。)
 
