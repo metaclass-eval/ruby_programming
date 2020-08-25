@@ -76,7 +76,9 @@ When you gaze into *self* again accodingly, then you can find that the world con
 ![Object World](../png/object_world.png)
 
 Note
-* What may interest to you is that we cannot know the origin of *self* only by gazing into the well-structured world. It is like the origin of life. Which is first, egg or chicken? (興味深いことの一つは、すでに構築された世界を覗いてもselfの起源がわからない点である。 まるで生命の起源を考えているような気分になる。タマゴが先かニワトリが先か。)
+* What may interest to you is that we cannot know the origin of *self* only by gazing into the well-structured world.  (興味深いことの一つは、すでに構築された世界を覗いてもselfの起源がわからない点である。) 
+* It is like the origin of life. Which is first, egg or chicken? *class* or *instance*? (まるで生命の起源を考えているような気分になる。タマゴが先かニワトリが先か?クラスが先かインスタンスが先か?)
+* Maybe you need to go into the chaos before the world was born if you want to know the origin of the *self*. (もし、自分自身の起源を知りたければ、おそらく世界が誕生する前の混沌に足を踏み入れなければならないだろう。)
 
 ## 3. When you gaze long into the self (自分自身を見つめる時)
 
