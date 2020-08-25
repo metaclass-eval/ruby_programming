@@ -1,7 +1,8 @@
 # When you gaze long into the abyss (深淵を覗く時) [995#]
 
-1. [What is self (自分とは何か?)]()
-2. [Start Terminal (ターミナル起動)]()
+1. [What is self? (自分とは何か?)](#1-what-is-self-%E8%87%AA%E5%88%86%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
+2. [Hello, Ruby world\!\! (こんにちは、Rubyの世界)](#2--hello-ruby-world-%E3%81%93%E3%82%93%E3%81%AB%E3%81%A1%E3%81%AFruby%E3%81%AE%E4%B8%96%E7%95%8C)
+3. [When you gaze long into the self (自分自身を見つめる時)](#3-when-you-gaze-long-into-the-self-%E8%87%AA%E5%88%86%E8%87%AA%E8%BA%AB%E3%82%92%E8%A6%8B%E3%81%A4%E3%82%81%E3%82%8B%E6%99%82)
 
 *このチュートリアルは約10分で終了します*
 
@@ -42,7 +43,7 @@ p Module.superclass       #=> Object
 * The first *self* that is given by Ruby God is the top-level object (main). (最初にRubyの神によって与えられる*self*はソースコード全体自身を表す（トップレベル）を表すオブジェクト（main）だ。)
 * But interestingly, main itself cannot be seen and we can know it only through the *self*. (しかし、面白いことにそれ自身（mainオブジェクト）を直接参照することはできず、必ず自分（selfオブジェクト）を通すことでしか見ることができない。)
 
-## 2. Guidance to the Class structure in Ruby (Rubyのクラス構造)
+## 2.  Hello, Ruby world!! (こんにちは、Rubyの世界)
 
 First, let's review the technical terms in Object Oriented World. (まず、簡単にオブジェクト指向の世界をおさらいしておこう。)
 * The world consists of Objects. (世界は全てオブジェクトによって構成されている。)
