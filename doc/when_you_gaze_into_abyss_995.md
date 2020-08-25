@@ -71,7 +71,7 @@ Ok. Let's move onto the darkside slowly. Please be careful and step off accident
 * *module* can define methods as well as *class*, but *module* cannnot inherit either another *module* or generte an instance. (モジュールはクラス同様にメソッドを定義できるが継承することやインスタンスを生成することはできない。)
 * Instead, *module* can ben included in a *class*. This is called **Min-in**. (代わりに、クラスに含むことができる。この機能をMix-inと呼ぶ。)
 
-When you gaze into *self* again accodingly, then you can find that the world consists of the mutually related objects. ( 以上のことを踏まえて、selfを見つめると、Rubyの世界は以下のような循環するクラス継承/階層関係で成り立っていることが見えてくる。)
+When you gaze into *self* again accodingly, then you can find that the world consists of the mutually dependent objects. (以上のことを踏まえて、selfを見つめると、Rubyの世界は以下のような循環するクラス継承/階層関係で成り立っていることが見えてくる。)
 
 ![Object World](../png/object_world.png)
 
