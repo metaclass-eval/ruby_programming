@@ -40,8 +40,8 @@ p Module.superclass       #=> Object
 ```
 
 * Object#class, Class#superclass, Module#ancestors, Module#included_modules are usuful methods for relfection. (以下のメソッドはリフレクションするのにとても便利だ: Object#class, Class#superclass, Module#ancestors, Module#included_modules。)
-* The first *self* that is given by Ruby God is the top-level object (main) that seems to govern the instantizated world created by the God. (最初にRubyの神によって与えられる*self*は神が作り出した一つの実体世界のトップに君臨するす（トップレベルを表すオブジェクトの）mainオブジェクトだ。)
-* But interestingly, the *main* itself cannot be seen and we can know it only through the *self*. (しかし、面白いことに世界の覇者（のように見えるmainオブジェクト）を直接見ることはできず、必ず自分（selfオブジェクト）を通すことでしか見ることができない。)
+* The first *self* given by Ruby God is the top-level object (main) that seems to govern th one instantizated world created by the God. (最初にRubyの神によって与えられる*self*は神が作り出した一つの実体世界のトップに君臨する（トップレベルを表すオブジェクトの）mainオブジェクトだ。)
+* But interestingly, the *main* itself cannot be seen and we can know it only through the *self*. (しかし、面白いことにその実世界の覇者（のように見えるmainオブジェクト）を直接見ることはできず、必ず自分（selfオブジェクト）を通すことでしかその存在を知ることができない。)
 
 ## 2.  Hello, Ruby world!! (こんにちは、Rubyの世界)
 
@@ -52,27 +52,27 @@ First, let's review the rules that control the Object Oriented World. (まず、
 
 class_instance.rb
 ```ruby
-class Klass
+class SuperClass
   def hello
     p "Hello, World!!"
   end
 end
 
-class Klass2 << Klass
+class SubClass < SuperClass
 end
 
-instance = Klass2.new
+instance = SubClass.new
 instance.hello
 #=> Hello, World!!
 ```
 
 Ok. Let's move onto the darkside slowly. Please be careful and step off accidentaly at some point. (ここから少しずつ深淵に近づいていくことにしよう。用心して進みながらどこかで足を踏み外して欲しい。)
-* *class* and *instance* is object. (まず、クラスもインスタンスもどちらもオブジェクトである。)
+* Both *class* and *instance* is object. (まず、クラスもインスタンスもどちらもオブジェクトである。)
 * Therefore, there is a *class*  of a *class*, which is called *meta-class*. (そのため、クラスもその設計図に相当するクラスがあり、これをメタクラスと呼ぶ。)
 * i.e. There are **two relationships: 1) inheritance (subclass-superclass), 2) instance-class hierarchy**. (つまり、クラスには、継承関係とは別にインスタンス-クラスの階層関係がある。)
 * In addtion, in Ruby, there is another object, *module*. (Rubyには、もう一つクラスに似たモノにモジュールがある。)
-* *module* can define methods as well as *class*, but *module* cannnot inherit either another *module* or generte an instance. (モジュールはクラス同様にメソッドを定義できるが継承することやインスタンスを生成することはできない。)
-* Instead, *module* can ben included in a *class*. This is called **Min-in**. (代わりに、クラスに含むことができる。この機能をMix-inと呼ぶ。)
+* *module* can define methods as well as *class*, but *module* cannnot inherit another *module* and cannot generte an instance. (モジュールはクラス同様にメソッドを定義できるが継承することやインスタンスを生成することはできない。)
+* Instead, *module* can be included in a *class*. This is called **Min-in**. (代わりに、クラスに含むことができる。この機能をMix-inと呼ぶ。)
 
 When you gaze into *self* again accodingly, then you can find that the world consists of the mutually dependent objects. (以上のことを踏まえて、selfを見つめると、Rubyの世界は以下のような循環するクラス継承/階層関係で成り立っていることが見えてくる。)
 

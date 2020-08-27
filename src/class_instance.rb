@@ -1,23 +1,21 @@
 
-class Klass
+class SuperClass
   def hello
     p "Hello, World!!"
   end
 end
 
-instance = Klass.new
-instance.hello
-
-class Klass2 < Klass
+class SubClass < SuperClass
 end
 
-instance = Klass2.new
+instance = SubClass.new
 instance.hello
 
-def instance.hello2
-    p "Hello, World2!!"
+def instance.hello
+    p "Hello, Another World!!"
 end
 
+instance.hello
 p instance.class
 p instance.singleton_class.superclass
 
