@@ -44,6 +44,10 @@ TD
 
 TD
 
+## Data types and osperators (データ型と演算子) [#006]
+
+TD
+
 To be continued (続く)
 
 ## Abbreviations
