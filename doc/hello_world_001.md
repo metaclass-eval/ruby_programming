@@ -63,13 +63,24 @@ Note
 $ ls
 ```
 
+* You can see the file contents with **cat** command. (**cat**コマンドを使うことでファイルの中身を確認することができます。)
+
+```
+$ cat hello_world.rb
+print "Hello, World!"
+```
+
+* Namely, **echo** command did 1) made a text file, and 2) wrote the text in the file. (**echo** コマンドは実際にはファイルを作成して、ファイルに文字列を書き出した、ということになります。)
+
+
 * You can start the Finder by typing **open .** (macOSを使っているなら、**open .** とタイプすることでFinderを起動することができます (最後のドット「.」もちゃんと意味があるので忘れないでください) (openとドット「.」の間にはスペースが必要です)。)
+
 
 ```
 $ open .
 ```
 
-Now it is done to make a Ruby source code. (これで、Rubyプログラミングコード (ソースコード) が完成しました。)
+Now it is done making a Ruby source code. (これで、Rubyプログラミングコード (ソースコード) が完成しました。)
 
 Note (ご注意)
 * It is convention to put **.rb** (extension) to the file name for a Ruby source code. (Rubyのソースコードのファイルは *.rb* と拡張子をつける慣わしになっています (.rbになっていなくても問題なく動きます)。)
@@ -100,12 +111,15 @@ In this tutorial (このチュートリアルでは)
 
 1. You made a Ruby source code by using **echo** Unix command (echoコマンドを使ってRubyソースコードを作成しました。) 
 2. You ran the Ruby code and showed **Hello, World!** in the screen. (作ったソースコードを実行して **Hello, World!** と画面に表示しました。)
+3. You used only one method (function) in Ruby, **print**. The **print** shows the text in the terminal. (ここではRubyで用意されている **print** と呼ばれる命令 (メソッドと言います) を使いました。**print**はターミナル画面に文字列を表示する、という命令 (メソッド)です。)
 
 ![hello_world](https://github.com/metaclass-eval/ruby_programming/blob/master/png/hello_world.png)
+
 
 Note (補足)
 * Usually we make a source code (file) by using a text editor. (通常は何らかのテキストエディタを用いてソースコードを作成します。)
 * In this tutorial, an way not to use a text editor for the simple example was shown. (今回は簡単な紹介のためにテキストエディタを使わない方法を紹介しました。)
+* Plase do not confuse **echo** with **print**. **echo** is a Unix command, **print** is a method in Ruby. (**echo**と**print**を混同しないように注意してください。**echo**はUnixコマンドで、**print**はRubyのメソッドです。)
 
 Thank you for reading this tutorial. (お疲れ様でした。)
 
