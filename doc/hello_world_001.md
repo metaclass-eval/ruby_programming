@@ -8,8 +8,9 @@
 4. [Run (実行)](#4-run-%E5%AE%9F%E8%A1%8C)
 5. [Summary (まとめ)](#5-summary-%E3%81%BE%E3%81%A8%E3%82%81)
 
-* [Youtube (EN)](https://www.youtube.com/watch?v=-eNrtL38UKc)
-* [Youtube (JP)](https://www.youtube.com/watch?v=nHY1uPXSCfU)
+Youtube
+* [[#001] Hello, World in Ruby (EN)](https://www.youtube.com/watch?v=-eNrtL38UKc)
+* [[#001] Hello, World in Ruby (JP)](https://www.youtube.com/watch?v=nHY1uPXSCfU)
 
 *このチュートリアルは約 **5** 分で終わります*
 

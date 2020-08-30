@@ -7,6 +7,10 @@
 5. [Explanation (解説)](#5-explanation-%E8%A7%A3%E8%AA%AC)
 6. [Summary (まとめ)](#6-summary-%E3%81%BE%E3%81%A8%E3%82%81)
 
+Youtube
+* [Hello, Underworld in Ruby (EN) [999#]](https://www.youtube.com/watch?v=Ukt7DvYlSJc)
+* [Hello, Underworld in Ruby (JP) [999#]](https://www.youtube.com/watch?v=N8f1S-nxvW4)
+
 *このチュートリアルは約10分で終了します*
 
 ----
