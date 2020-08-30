@@ -140,7 +140,7 @@ p $0.split('_').map(&:capitalize).join(', ').gsub(/.rb/, '!')
 
 . (から、です。)
 * You should read the code 1) from left to right, and 2) from top to bottom. (コードを読むときの意識の流れとしては、1) 左から右、2) 上から下、です。)
-* The long cascadings may kill you die due to a bug. (調子に乗ってカスケードを長くするとバグが入って死亡フラグが立ちます。)
+* The long cascadings may kill you due to a bug. (調子に乗ってカスケードを長くするとバグが入って死亡フラグが立ちます。)
 
 **処理の流れ (おさらい)**
 
