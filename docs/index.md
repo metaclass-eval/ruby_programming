@@ -1,6 +1,7 @@
 # Ruby Programming -yet another tutorial-
 (Ruby プログラミング -さらにもう一つの別のチュートリアル-)
 
+aa
 TD
 * <img src="png/en.png" width="20"> Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
 * <img src="png/jp.png" width="20"> 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
