@@ -30,6 +30,11 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/when_you_gaze_into_abyss_995.md
 
+## What is Meta? (メタとは何か？) [994#]
+
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/what_is_meta_994.md
+
+
 BD Plan
 =================
 
