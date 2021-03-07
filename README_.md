@@ -34,6 +34,10 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/what_is_meta_994.md
 
+## Zen and Ruby (禅とRuby) [993#]
+
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_and_ruby_993.md
+
 
 BD Plan
 =================
