@@ -28,23 +28,15 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/hello_world_001.md
 
-## A road map to a well-grounded Rubyist (Well-groundedなRubyistへの道, Ruby言語学習手順) [#002]
+## What is programming language? (プログラミング言語とは何か?) [#002]
 
-TD 
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/what_is_programming_language_002.md
 
-## What is programming language? (プログラミング言語とは何か?) [#003]
-
-TD
-
-## Types of programming language (プログラミング言語の種類) [#004]
+## Types of programming language (プログラミング言語の種類) [#003]
 
 TD
 
-## Compare with other languages (他のプログラミング言語との比較) [#005]
-
-TD
-
-## Data types and osperators (データ型と演算子) [#006]
+## Data types and osperators (データ型と演算子) [#004]
 
 TD
 
