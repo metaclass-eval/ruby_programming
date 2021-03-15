@@ -14,6 +14,9 @@ Youtube
 * [[#001] Hello, World in Ruby (EN)](https://www.youtube.com/watch?v=-eNrtL38UKc)
 * [[#001] Hello, World in Ruby (JP)](https://www.youtube.com/watch?v=nHY1uPXSCfU)
 
+* <img src="png/en.png" width="20"> [Only English](https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en/hello_world_001_en.md)
+* <img src="png/jp.png" width="20"> [日本語のページ](https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp/hello_world_001_jp.md)
+
 *It will take take **5** minutes to read this article*
 
 ----
