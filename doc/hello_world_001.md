@@ -11,9 +11,10 @@
 ----
 
 Youtube
-* [[#001] Hello, World in Ruby (EN)](https://www.youtube.com/watch?v=-eNrtL38UKc)
-* [[#001] Hello, World in Ruby (JP)](https://www.youtube.com/watch?v=nHY1uPXSCfU)
+* [[#001] Hello, World in Ruby (EN)](https://youtu.be/so284ttykM4)
+* [[#001] Hello, World in Ruby (JP)](https://youtu.be/nHY1uPXSCfU)
 
+Language
 * <img src="/png/en.png" width="20"> [Only English](/doc/en/hello_world_001_en.md)
 * <img src="/png/jp.png" width="20"> [日本語のページ](/doc/jp/hello_world_001_jp.md)
 
