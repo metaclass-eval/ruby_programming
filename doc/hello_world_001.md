@@ -15,8 +15,8 @@ Youtube
 * [[#001] Hello, World in Ruby (JP)](https://youtu.be/nHY1uPXSCfU)
 
 Language
-* <img src="/png/en.png" width="20"> [Only English](/doc/en/hello_world_001_en.md)
-* <img src="/png/jp.png" width="20"> [日本語のページ](/doc/jp/hello_world_001_jp.md)
+* <img src="https://raw.githubusercontent.com/metaclass-eval/ruby_programming/master/png/en.png" width="20"> [Only English](https://github.com/metaclass-eval/ruby_programming/blob/master/doc/en/hello_world_001_en.md)
+* <img src="https://raw.githubusercontent.com/metaclass-eval/ruby_programming/master/png/jp.png" width="20"> [日本語のページ](https://github.com/metaclass-eval/ruby_programming/blob/master/doc/jp/hello_world_001_jp.md)
 
 *It will take take **5** minutes to read this article* (*このチュートリアルは約 **5** 分で終わります*)
 
