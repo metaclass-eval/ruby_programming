@@ -111,7 +111,7 @@ Hello, World!
 
 In this tutorial (このチュートリアルでは)
 
-1. You made a Ruby source code by using **echo** Unix command (echoコマンドを使ってRubyソースコードを作成しました。) 
+1. You made a Ruby source code by using **echo** Unix command (echoコマンドを使ってRubyソースコードを作成しました。)
 2. You ran the Ruby code and showed **Hello, World!** in the screen. (作ったソースコードを実行して **Hello, World!** と画面に表示しました。)
 3. You used only one method (function) in Ruby, **print**. The **print** shows the text in the terminal. (ここではRubyで用意されている **print** と呼ばれる命令 (メソッドと言います) を使いました。**print**はターミナル画面に文字列を表示する、という命令 (メソッド)です。)
 
