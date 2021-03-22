@@ -2,8 +2,9 @@
 (Ruby プログラミング -さらにもう一つの別のチュートリアル-)
 
 TD
-* <img src="png/en.png" width="20"> Only English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
+* <img src="png/en.png" width="20"> in English: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/en
 * <img src="png/jp.png" width="20"> 日本語のページ: https://github.com/metaclass-eval/ruby_programming/tree/master/doc/jp
+* <img src="png/ge.png" width="20"> auf Deutsch: TD
 
 Note (ご利用上のご注意)
 * This site describes 1. how to do programming and 2. what to do in programming, through programming in Ruby for a programming language beginner. (このサイトは実際にプログラミングすることを通してプログラミング言語初心者を対象としてRuby言語を使って一からプログラミングを習得する解説記事を掲載します。)
