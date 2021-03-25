@@ -1,7 +1,16 @@
 Contents
 =================
 
-TOC
+
+1. [What is programming language? (プログラミング言語とは何か?)](#1-what-is-programming-language-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
+  1-1. [A set of commands (命令のセット)](#1-1-a-set-of-commands-%E5%91%BD%E4%BB%A4%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88)
+  1-2. [Translation types](#1-2-translation-types)
+  1-3. [Pros and Cons (長所と短所)](#1-3-pros-and-cons-%E9%95%B7%E6%89%80%E3%81%A8%E7%9F%AD%E6%89%80)
+  1-4. [What is computer programing?](#1-4-what-is-computer-programing)
+
+Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
+
+----
 
 # 1. What is programming language? (プログラミング言語とは何か?)
 
@@ -15,10 +24,10 @@ TOC
 
 FIG: image set of commands, human bou + computer, 0/1, language
 
-* Such language as C language, Python, and Ruby is called high-level programming language which is functional and readable by human. (C言語、Python、Rubyといった言語は高級言語であり、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています。)
-* On the other hand, low-level programming language (code) is a direct command set for CPU (Central Processing Unit), which is usually non human readable, i.e. 0 and 1 sequence. (これに対して低水準言語はCPU中央演算処理装置に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。)
-* Normally, we need to translate (convert) the high-level language code into the low-level language code. (そのため、通常は高級言語でプログラミングコードを書き、機械語に翻訳（変換）する作業が伴います。)
-* It means that the learning of programming language to learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate (convert) to the machine code from the source code. (「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、ソースコードとして保存し、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
+* Such a language as C language, Python, and Ruby is called **high-level programming language** which is functional and readable by human. (C言語、Python、Rubyといった言語は高級言語と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています。)
+* On the other hand, **machine language (code)** is a direct command set for CPU (Central Processing Unit), which is usually non readable by human, i.e. only 0 and 1 sequence. (これに対して機械語はCPU中央演算処理装置に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。)
+* Normally, we need to translate (convert) the high-level language code into the machine language code. (そのため、通常は高級言語でプログラミングコードを書き、機械語に翻訳（変換）する作業が伴います。)
+* It would mean, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate (convert) to the machine code from the source code. (「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、ソースコードとして保存し、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
 
 ## 1-2. Translation types
 
