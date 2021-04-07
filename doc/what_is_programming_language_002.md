@@ -2,11 +2,11 @@ Contents
 =================
 
 
-1. [What is programming language? (プログラミング言語とは何か?)](#1-what-is-programming-language-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
-  1-1. [A set of commands (命令のセット)](#1-1-a-set-of-commands-%E5%91%BD%E4%BB%A4%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88)
-  1-2. [Translation types](#1-2-translation-types)
-  1-3. [Pros and Cons (長所と短所)](#1-3-pros-and-cons-%E9%95%B7%E6%89%80%E3%81%A8%E7%9F%AD%E6%89%80)
-  1-4. [What is computer programing?](#1-4-what-is-computer-programing)
+1. [What is programming language? (Was ist eine Programmiersprache?) (プログラミング言語とは何か?)](#1-what-is-programming-language-was-ist-eine-programmiersprache-%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E8%A8%80%E8%AA%9E%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
+  1. [A set of commands (Ein Satz von Kommandos) (命令のセット)](#1-1-a-set-of-commands-ein-satz-von-kommandos-%E5%91%BD%E4%BB%A4%E3%81%AE%E3%82%BB%E3%83%83%E3%83%88)
+  2. [Translation types (Übersetzungstypen) (翻訳の種類)](#1-2-translation-types-%C3%BCbersetzungstypen-%E7%BF%BB%E8%A8%B3%E3%81%AE%E7%A8%AE%E9%A1%9E)
+  3. [Pros and Cons (Pro und Contra) (長所と短所)](#1-3-pros-and-cons-pro-und-contra-%E9%95%B7%E6%89%80%E3%81%A8%E7%9F%AD%E6%89%80)
+2. [Summary: What is computer programing? (Zusammenfassung: Was ist Computerprogrammierung?) (まとめ: コンピュータプログラミングとは何か？)](#1-4-summary-what-is-computer-programing-zusammenfassung-was-ist-computerprogrammierung-%E3%81%BE%E3%81%A8%E3%82%81-%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF%E3%83%97%E3%83%AD%E3%82%B0%E3%83%A9%E3%83%9F%E3%83%B3%E3%82%B0%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
 
 Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
@@ -67,7 +67,7 @@ TD
 * そのため、インタープリタ言語よりは高速であるけれども、コンパイラ言語よりは遅く、コンパイラの手順が必要だけれども、バイトコードであれば、どのOSでも同様に実行可能である、というインタープリタ言語とコンパイラ言語の中間の性質を持ちます。
 
 
-## 1-4. Summary: What is computer programing? (Zusammenfassung: Was ist Computerprogrammierung?) (まとめ: コンピュータプログラミングとは何か？)
+# 2. Summary: What is computer programing? (Zusammenfassung: Was ist Computerprogrammierung?) (まとめ: コンピュータプログラミングとは何か？)
 
 * 以上をまとめますと、プログラミング言語、とは...
 
