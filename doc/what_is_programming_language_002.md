@@ -12,7 +12,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 ----
 
-# 1. What is programming language? (プログラミング言語とは何か?)
+# 1. What is programming language? (Was ist eine Programmiersprache?) (プログラミング言語とは何か?)
 
 ## 1-1. A set of commands (Ein Satz von Kommandos) (命令のセット)
 
