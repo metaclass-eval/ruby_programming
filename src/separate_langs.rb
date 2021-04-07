@@ -1,6 +1,6 @@
 #!/usr/bin/env ruby
 # encoding: utf-8
-# Version = '20210407-055621'
+# Version = '20210407-055906'
 
 JP_DIR = "doc/jp"
 EN_DIR = "doc/en"
@@ -17,7 +17,7 @@ end
 flag = false
 jp_file = File.join(JP_DIR, File.basename(org_md).gsub(/.md$/, '_jp.md'))
 en_file = File.join(EN_DIR, File.basename(org_md).gsub(/.md$/, '_en.md'))
-de_file = File.join(EN_DIR, File.basename(org_md).gsub(/.md$/, '_de.md'))
+de_file = File.join(DE_DIR, File.basename(org_md).gsub(/.md$/, '_de.md'))
 open(jp_file, "w") do |jp_out|
 open(en_file, "w") do |en_out|
 open(de_file, "w") do |de_out|
