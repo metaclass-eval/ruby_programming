@@ -22,53 +22,55 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 1機械語、低水準言語
 2高級言語、高水準言語
 
-[FIG]: image set of commands, human bou + computer, 0/1, language
+FIG: image set of commands, human bou + computer, 0/1, language
 
-* Such a language as C language, Python, and Ruby is called **high-level programming language** which is functional and readable by human. () (C言語、Python、Rubyといった言語は高級言語と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています。)
-* これに対して機械語はCPU中央演算処理装置に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。
+* C言語、Python、Rubyといった言語は**高級言語**と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています）
+* これに対して**機械語**はCPU（中央演算処理装置）に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。
 * そのため、通常は高級言語でプログラミングコードを書き、機械語に翻訳（変換）する作業が伴います。
-* It would mean, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code. () (「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、ソースコードとして保存し、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
+* 「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。
 
 翻訳の種類
 
-* There are two ways to convert from source code to machine code. () (ソースコードから機械語に変換する方法が二通りあります。)
+* ソースコードから機械語に変換する方法が二通りあります。
 
 1コンパイル
 2インタープリット
 
 FIG: image compiler, interpreter
 
-* *Compile* means convering source code to machine code at once and machine code will be normally executable, while *Interpret* means converting source code into machine code line by line with execution. () (コンパイルとはソースコードを機械語に一括して変換することで、一旦全てのコードを機械語に変換してから実行されるのに対し、インタープリットとはソースコードの命令を一つ一つ機械語に変換することで、機械語に変換しながら実行します。)
-* Programming languages are classified by the way of translation. () (この翻訳の仕方によって、プログラミング言語は大きく二つに分類されます。)
+* **コンパイル**とはソースコードを機械語に一括して変換することで、一旦全てのコードを機械語に変換してから実行されるのに対し、**インタープリット**とはソースコードの命令を一つ一つ機械語に変換することで、機械語に変換しながら実行します。
+* この翻訳の仕方によって、プログラミング言語は大きく二つに分類されます。
 
 1コンパイラ言語
 2インタープリタ言語
 
-* This is the way of classification depending on the type of translation, rather than the language itself. () (これは言語そのものの特徴というよりは、言語の翻訳の仕方による分類になります。)
-* Famous compiler languages are, for example, C/C++, Fortran, Go, and so on. () (コンパイラ言語として代表的なものは、C/C++、Fortran、Go言語など。)
-* Famous interpreter languages are Python, Ruby, Perl, and so on. () (インタープリタ言語として有名なのは、Python、Perl、Ruby、などです。)
-* However, there is an interpretor for C language and a compiler for Ruby. () (ただし、C言語のインタプリタやRuby言語のコンパイラも存在します。)
-* The rules or grammer of the language is called *language speciation*, while the actual code for the language translation is called *language implementation*. () (どのような文法規則や命令があるかといった言語の仕様に対して、これら翻訳をする実際のプログラムのことを言語の実装と呼びます。)
+* これは言語文法や言語そのものの特徴というよりは、言語の翻訳の仕方による分類になります。
+* コンパイラ言語として代表的なものは、C/C++、Fortran、Go言語など。
+* インタープリタ言語として有名なのは、Python、Perl、Ruby、などです。
+* インタープリタ言語は**スクリプト言語**とも呼ばれます。
+* ただし、C言語のインタプリタやRuby言語のコンパイラも存在します。
+* どのような文法規則や命令があるかといった**言語の仕様**に対して、これら翻訳をする実際のプログラムのことを**言語の実装**と呼びます。
 
 FIG: language group
 
+Note
 * このように、C言語用のインタープリタやRuby用のコンパイラなども開発されているので、ソースコードから機械語に変換する方法で言語を完全に分けることはできませんが、その言語が標準でどちらを採用しているか、あるいは広く利用されているか、を知っておくことは大事です。
-* なぜなら、コンパイラは事前にプログラミング手順やデータ構造が固定されていることが前提となりますが、インタープリタではプログラミング実行中にプログラミング手順を変更するといったことが可能であり、この性質を利用した言語仕様が規定されている場合があるからです。
-* 例えば、コンパイラ言語のC言語では予めデータの性質、例えば、整数であるとか実数であるとか、そういったデータ型が定義されている必要がありますが、インタープリタ言語であるPythonやRubyなどはこういったデータ型の指定を予めしておく必要がありません。
+* なぜなら、翻訳のタイプによって言語仕様が設計されることが多いからです。
+* コンパイラは事前にプログラミング手順やデータ構造が固定されていることが前提となりますが、インタープリタではプログラミング実行中にプログラミング手順を変更するといったことが可能であり、この性質を利用した言語仕様が規定されている場合があるからです。
+* コンパイラ言語のC言語では予めデータの性質、例えば、整数であるとか実数であるとか、そういったデータ型が定義されている必要がありますが、インタープリタ言語であるPythonやRubyなどはこういったデータ型の指定を予めしておく必要がありません。
 
 長所と短所
 
 * コンパイラ言語とインタープリタ言語でそれぞれ長所と短所があります。
 
-TD
-
-* ちなみに、Java言語は、コンパイラとインタープリタの両方を採用しており、コンパイルをしてソースコードと機械語の中間の「バイトコード」を生成し、インタープリタによってバイトコードが機械語に翻訳されて実行されます。
-* この「バイトコード」は人間が直接理解することは難しいですが、OSを問わず利用可能であるという点で、インタープリタ言語に似た性質を持ち、ソースコードから機械語に翻訳しながら実行するより高速であるというコンパイラ言語に近い特徴も併せ持っています。
-* そのため、インタープリタ言語よりは高速であるけれども、コンパイラ言語よりは遅く、コンパイラの手順が必要だけれども、バイトコードであれば、どのOSでも同様に実行可能である、というインタープリタ言語とコンパイラ言語の中間の性質を持ちます。
-
+TD: Table
 
 まとめ: コンピュータプログラミングとは何か？
 
-* 以上をまとめますと、プログラミング言語、とは...
+* 以上をまとめますと、プログラミング言語、とは、1.ソースコードと、2.機械語の二種類があります。
+* ソースコードから機械語に変換（翻訳）する必要があり、この翻訳のタイプが二種類、1.コンパイルと、2.インタープリットがあります。
+* この翻訳の仕方によって、大きく1.コンパイラ言語と、2. インタープリタ言語（スクリプト言語）に分類されます。
+* Rubyはインタープリタ言語（スクリプト言語）です。
+* そのため、実行速度はC言語などのコンパイラ言語に敵いませんが、実行中に柔軟にデータ構造や処理手順を変更することが可能で、このための機能が多く用意されていてRubyの一つの特徴にもなっています。
 
-TD
+That's it for today. (Das war's für heute.) 以上。

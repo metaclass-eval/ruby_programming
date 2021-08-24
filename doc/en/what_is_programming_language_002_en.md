@@ -22,53 +22,55 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 1. Machine code, low-level programming language
 2. High-level programming language
 
-[FIG]: image set of commands, human bou + computer, 0/1, language
+FIG: image set of commands, human bou + computer, 0/1, language
 
-* Such a language as C language, Python, and Ruby is called **high-level programming language** which is functional and readable by human. () (C言語、Python、Rubyといった言語は高級言語と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています。)
-* On the other hand, **machine language (code)** is a direct command set for CPU
-* Normally, we need to translate
-* It would mean, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code. () (「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、ソースコードとして保存し、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
+* Such a language as C language, Python, and Ruby is called **high-level programming language** which is functional and readable by human.
+* On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence.
+* Normally, we need to translate/convert the high-level language into the machine code.
+* It means, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code.
 
 ## 1-2. Translation types
 
-* There are two ways to convert from source code to machine code. () (ソースコードから機械語に変換する方法が二通りあります。)
+* There are two ways to convert from source code to machine code.
 
 1. Compile
 2. Interpret
 
 FIG: image compiler, interpreter
 
-* *Compile* means convering source code to machine code at once and machine code will be normally executable, while *Interpret* means converting source code into machine code line by line with execution. () (コンパイルとはソースコードを機械語に一括して変換することで、一旦全てのコードを機械語に変換してから実行されるのに対し、インタープリットとはソースコードの命令を一つ一つ機械語に変換することで、機械語に変換しながら実行します。)
-* Programming languages are classified by the way of translation. () (この翻訳の仕方によって、プログラミング言語は大きく二つに分類されます。)
+* **Compile** means convering source code to machine code at once and the machine code will be normally executable, while **Interpret** means converting source code into machine code line by line with execution.
+* Programming languages are classified by the way of translation.
 
 1. Compiler language
 2. Interpreter lanaguage
 
-* This is the way of classification depending on the type of translation, rather than the language itself. () (これは言語そのものの特徴というよりは、言語の翻訳の仕方による分類になります。)
-* Famous compiler languages are, for example, C/C++, Fortran, Go, and so on. () (コンパイラ言語として代表的なものは、C/C++、Fortran、Go言語など。)
-* Famous interpreter languages are Python, Ruby, Perl, and so on. () (インタープリタ言語として有名なのは、Python、Perl、Ruby、などです。)
-* However, there is an interpretor for C language and a compiler for Ruby. () (ただし、C言語のインタプリタやRuby言語のコンパイラも存在します。)
-* The rules or grammer of the language is called *language speciation*, while the actual code for the language translation is called *language implementation*. () (どのような文法規則や命令があるかといった言語の仕様に対して、これら翻訳をする実際のプログラムのことを言語の実装と呼びます。)
+* This is the way of classification depending on the type of translation, rather than the language grammar.
+* Famous compiler languages are, for example, C/C++, Fortran, Go, and so on.
+* Famous interpreter languages are Python, Ruby, Perl, and so on.
+* Interpreter language is also called **Script langauge**.
+* However, there is an interpretor for C language and a compiler for Ruby.
+* The rules or grammer of the language is called **language speciation**, while the actual code for the anguage translation is called **language implementation**.
 
 FIG: language group
 
-* このように、C言語用のインタープリタやRuby用のコンパイラなども開発されているので、ソースコードから機械語に変換する方法で言語を完全に分けることはできませんが、その言語が標準でどちらを採用しているか、あるいは広く利用されているか、を知っておくことは大事です。
-* なぜなら、コンパイラは事前にプログラミング手順やデータ構造が固定されていることが前提となりますが、インタープリタではプログラミング実行中にプログラミング手順を変更するといったことが可能であり、この性質を利用した言語仕様が規定されている場合があるからです。
-* 例えば、コンパイラ言語のC言語では予めデータの性質、例えば、整数であるとか実数であるとか、そういったデータ型が定義されている必要がありますが、インタープリタ言語であるPythonやRubyなどはこういったデータ型の指定を予めしておく必要がありません。
+Note
+* It is important to know which compiler or interpreter is the major or common translation type in a language thougth it is difficult to classify a language type clearly by the translation type.
+* Because most of languages are usually design depending on the type of the translation.
+* Compiler language usually defines the procedure or data structure in advance of execution, while interpreter language can change the procedure or data structure even during execution.
+* For example, the compiler language such as C-language normally needs to define the data type of a variable such as integer or real number in advance of using it, which is called **variable declaration**, but generally in an interpretor language such as Ruby and Python the variable declaration is not required explicitly.
 
 ## 1-3. Pros and Cons
 
-* コンパイラ言語とインタープリタ言語でそれぞれ長所と短所があります。
+* There are Pros and Cons in each language translation type, Compiler/Interpreter language.
 
-TD
-
-* ちなみに、Java言語は、コンパイラとインタープリタの両方を採用しており、コンパイルをしてソースコードと機械語の中間の「バイトコード」を生成し、インタープリタによってバイトコードが機械語に翻訳されて実行されます。
-* この「バイトコード」は人間が直接理解することは難しいですが、OSを問わず利用可能であるという点で、インタープリタ言語に似た性質を持ち、ソースコードから機械語に翻訳しながら実行するより高速であるというコンパイラ言語に近い特徴も併せ持っています。
-* そのため、インタープリタ言語よりは高速であるけれども、コンパイラ言語よりは遅く、コンパイラの手順が必要だけれども、バイトコードであれば、どのOSでも同様に実行可能である、というインタープリタ言語とコンパイラ言語の中間の性質を持ちます。
-
+TD: Table
 
 # 2. Summary: What is computer programing?
 
-* 以上をまとめますと、プログラミング言語、とは...
+* Programming language has two types of code, 1. source code and 2. machine code.
+* We need to translate/convert the source code into the machine code, and there are two types of translation, 1. compile, and 2. interpret.
+* Depending on the translation type, there are two types of language, 1. compiler language, and 2. interpreter language (script language).
+* Ruby is an interpreter language, script lanaguage.
+* Therefore, the execution speed is slower than a compiler language such as C language, but it is possible to change the procedure or data structure during the execution flexibly and there are a lot of functions for it, which is one of the special features in Ruby.
 
-TD
+That's it for today. (Das war's für heute.) 以上。
