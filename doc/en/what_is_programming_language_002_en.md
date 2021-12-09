@@ -24,7 +24,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 
 FIG: image set of commands, human bou + computer, 0/1, language
 
-* Such a language as C language, Python, and Ruby is called **high-level programming language** which is functional and readable by human.
+* Such a language as *C language*, *Python*, and *Ruby* is called **high-level programming language** which is functional and readable by human.
 * On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence.
 * Normally, we need to translate/convert the high-level language into the machine code.
 * It means, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code.
@@ -63,7 +63,19 @@ Note
 
 * There are Pros and Cons in each language translation type, Compiler/Interpreter language.
 
-TD: Table
+|                               | Compiler language (コンパイラ言語) | Interpreter language (インタープリタ言語) |
+| ----------------------------- | ---------------------------------- | ----------------------------------------- |
+| calculation speed (実行速度)  | fast (速い)                        | slow (遅い)                               |
+| development speed (開発速度)  | slow (遅い)                        | high (速い)                               |
+| learning cost (学習コスト)    | high (高い)                        | low (低い)                                |
+
+* C言語のようなコンパイラ言語は実行速度は速い反面、言語としての機能が低いのでプログラミングにはインタープリタ言語に比べて処理手順が多くなる傾向があります。
+* その為に覚えることも多く、学習コストが高くなる傾向があります。
+* 逆に、インタープリタ言語（スクリプト言語）は機能が豊富でやりたいことを少ない手順で実現可能なことが多い代わりに、実行速度が低い、というデメリットがあります。
+* プロトタイプとしてインタープリタ言語で実装して、実用化の段階でコンパイラ言語に切り替える、という使い方も十分あり得ます。
+* プログラミング書学者はインタープリタ言語をまず学んで、その後、分野や必要に応じてコンパイラ言語を習得されるのが良いでしょう。
+* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、必ずしも実行速度がインタープリタ言語だから、コンパイラ言語だから、という基準で判断できないことも多いです。
+
 
 # 2. Summary: What is computer programing?
 

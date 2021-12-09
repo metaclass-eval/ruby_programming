@@ -24,7 +24,7 @@ Ein Satz von Kommandos
 
 FIG: image set of commands, human bou + computer, 0/1, language
 
-* Eine solche Sprache wie C, Python und Ruby wird als **Hochsprache** bezeichnet, die funktional und für den Menschen lesbar ist.
+* Eine solche Sprache wie *C*, *Python* und *Ruby* wird als **Hochsprache** bezeichnet, die funktional und für den Menschen lesbar ist.
 * Auf der anderen Seite ist **Maschinencode** ein direkter Befehlssatz für die CPU, Central Processing Unit, der in der Regel für den Menschen nicht lesbar ist, d.h. nur 0- und 1-Sequenz.
 * Normalerweise müssen wir die Hochsprache in den Maschinencode übersetzen/umwandeln.
 * Es bedeutet, d.h. das Erlernen einer Programmiersprache bedeutet, dass Sie 1) lernen sollten, wie man eine der höheren Programmiersprachen als Sourcecode schreibt/liest und 2) wie man aus dem Sourcecode in den Maschinencode übersetzt/konvertiert.
@@ -63,7 +63,19 @@ Pro und Contra
 
 * Für jede Art der Sprachübersetzung, Compiler/Interpreter-Sprache, gibt es Pro und Kontra.
 
-TD: Table
+|                               | Compiler language (コンパイラ言語) | Interpreter language (インタープリタ言語) |
+| ----------------------------- | ---------------------------------- | ----------------------------------------- |
+| calculation speed (実行速度)  | fast (速い)                        | slow (遅い)                               |
+| development speed (開発速度)  | slow (遅い)                        | high (速い)                               |
+| learning cost (学習コスト)    | high (高い)                        | low (低い)                                |
+
+* C言語のようなコンパイラ言語は実行速度は速い反面、言語としての機能が低いのでプログラミングにはインタープリタ言語に比べて処理手順が多くなる傾向があります。
+* その為に覚えることも多く、学習コストが高くなる傾向があります。
+* 逆に、インタープリタ言語（スクリプト言語）は機能が豊富でやりたいことを少ない手順で実現可能なことが多い代わりに、実行速度が低い、というデメリットがあります。
+* プロトタイプとしてインタープリタ言語で実装して、実用化の段階でコンパイラ言語に切り替える、という使い方も十分あり得ます。
+* プログラミング書学者はインタープリタ言語をまず学んで、その後、分野や必要に応じてコンパイラ言語を習得されるのが良いでしょう。
+* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、必ずしも実行速度がインタープリタ言語だから、コンパイラ言語だから、という基準で判断できないことも多いです。
+
 
 Zusammenfassung: Was ist Computerprogrammierung?
 
