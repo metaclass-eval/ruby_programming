@@ -22,7 +22,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 1. Machine code, low-level programming language (Maschinencode, Maschinensprache) (機械語、低水準言語)
 2. High-level programming language (Höhere Programmiersprache) (高級言語、高水準言語)
 
-FIG: image set of commands, human bou + computer, 0/1, language
+![machine_code_source_code.png](../png/machine_code_source_code.png)
 
 * Such a language as *C language*, *Python*, and *Ruby* is called **high-level programming language** which is functional and readable by human. (Eine solche Sprache wie *C*, *Python* und *Ruby* wird als **Hochsprache** bezeichnet, die funktional und für den Menschen lesbar ist.) (*C言語*、*Python*、*Ruby*といった言語は**高級言語**と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています）)
 * On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence. (Auf der anderen Seite ist **Maschinencode** ein direkter Befehlssatz für die CPU, Central Processing Unit, der in der Regel für den Menschen nicht lesbar ist, d.h. nur 0- und 1-Sequenz.) (これに対して**機械語**はCPU（中央演算処理装置）に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。)
