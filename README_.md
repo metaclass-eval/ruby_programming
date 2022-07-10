@@ -38,6 +38,11 @@ Contents
 
 * https://github.com/metaclass-eval/ruby_programming/blob/master/doc/zen_and_ruby_993.md
 
+## Block (ブロック) [992#]
+
+* https://github.com/metaclass-eval/ruby_programming/blob/master/doc/block_992.md
+
+
 
 BD Plan
 =================
