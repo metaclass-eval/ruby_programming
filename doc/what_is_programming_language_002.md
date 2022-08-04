@@ -25,9 +25,9 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 ![machine_code_source_code.png](../png/machine_code_source_code.png)
 
 * Such a language as *C language*, *Python*, and *Ruby* is called **high-level programming language** which is functional and readable by human. (Eine solche Sprache wie *C*, *Python* und *Ruby* wird als **Hochsprache** bezeichnet, die funktional und für den Menschen lesbar ist.) (*C言語*、*Python*、*Ruby*といった言語は**高級言語**と呼ばれていて、通常は人間が理解できる言語体系をしています（ほとんどの高水準のプログラミング言語は英語を元にした命令語になっています）)
-* On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence. (Auf der anderen Seite ist **Maschinencode** ein direkter Befehlssatz für die CPU, Central Processing Unit, der in der Regel für den Menschen nicht lesbar ist, d.h. nur 0- und 1-Sequenz.) (これに対して**機械語**はCPU（中央演算処理装置）に一対一対応する命令セットでその命令語を直接人間が理解するのは大変困難です。)
+* On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence. (Auf der anderen Seite ist **Maschinencode** ein direkter Befehlssatz für die CPU, Central Processing Unit, der in der Regel für den Menschen nicht lesbar ist, d.h. nur 0- und 1-Sequenz.) (これに対して**機械語**はCPU（中央演算処理装置）に一対一対応する命令セットでその命令語、01の羅列、を直接人間が理解するのは通常困難です。)
 * Normally, we need to translate/convert the high-level language into the machine code. (Normalerweise müssen wir die Hochsprache in den Maschinencode übersetzen/umwandeln.) (そのため、通常は高級言語でプログラミングコードを書き、機械語に翻訳（変換）する作業が伴います。)
-* It means, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code. (Es bedeutet, d.h. das Erlernen einer Programmiersprache bedeutet, dass Sie 1) lernen sollten, wie man eine der höheren Programmiersprachen als Sourcecode schreibt/liest und 2) wie man aus dem Sourcecode in den Maschinencode übersetzt/konvertiert.) (「プログラミング言語を学ぶ」ということは、1) 高級言語の書き方を覚え、2) そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
+* It means, i.e. the learning of programming language means, that you should learn 1) how to write/read one of high-level programming languages as a source code and 2) how to translate/convert to the machine code from the source code. (Es bedeutet, d.h. das Erlernen einer Programmiersprache bedeutet, dass Sie 1) lernen sollten, wie man eine der höheren Programmiersprachen als Sourcecode schreibt/liest und 2) wie man aus dem Sourcecode in den Maschinencode übersetzt/konvertiert.) (「プログラミング言語を学ぶ」ということは、1. 高級言語の書き方/読み方を覚え、2. そのソースコードを機械語に翻訳（変換）する方法を学ぶ、ということになります。)
 
 ## 1-2. Translation types (Übersetzungstypen) (翻訳の種類)
 
@@ -73,8 +73,8 @@ Note
 * その為に覚えることも多く、学習コストが高くなる傾向があります。
 * 逆に、インタープリタ言語（スクリプト言語）は機能が豊富でやりたいことを少ない手順で実現可能なことが多い代わりに、実行速度が低い、というデメリットがあります。
 * プロトタイプとしてインタープリタ言語で実装して、実用化の段階でコンパイラ言語に切り替える、という使い方も十分あり得ます。
-* プログラミング書学者はインタープリタ言語をまず学んで、その後、分野や必要に応じてコンパイラ言語を習得されるのが良いでしょう。
-* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、必ずしも実行速度がインタープリタ言語だから、コンパイラ言語だから、という基準で判断できないことも多いです。
+* プログラミング初学者はインタープリタ言語の一つをまず学んで、その後、分野や必要に応じてコンパイラ言語を学習されるのが良いでしょう。
+* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、翻訳タイプだけで言語の良し悪しを判断することはできません。
 
 
 # 2. Summary: What is computer programing? (Zusammenfassung: Was ist Computerprogrammierung?) (まとめ: コンピュータプログラミングとは何か？)

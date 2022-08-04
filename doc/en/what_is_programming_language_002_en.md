@@ -22,7 +22,7 @@ Created by [gh-md-toc](https://github.com/ekalinin/github-markdown-toc.go)
 1. Machine code, low-level programming language
 2. High-level programming language
 
-FIG: image set of commands, human bou + computer, 0/1, language
+![machine_code_source_code.png](../png/machine_code_source_code.png)
 
 * Such a language as *C language*, *Python*, and *Ruby* is called **high-level programming language** which is functional and readable by human.
 * On the other hand, **machine code** is a direct command set for CPU, Central Processing Unit, which is usually not readable by human, i.e. only 0 and 1 sequence.
@@ -73,8 +73,8 @@ Note
 * その為に覚えることも多く、学習コストが高くなる傾向があります。
 * 逆に、インタープリタ言語（スクリプト言語）は機能が豊富でやりたいことを少ない手順で実現可能なことが多い代わりに、実行速度が低い、というデメリットがあります。
 * プロトタイプとしてインタープリタ言語で実装して、実用化の段階でコンパイラ言語に切り替える、という使い方も十分あり得ます。
-* プログラミング書学者はインタープリタ言語をまず学んで、その後、分野や必要に応じてコンパイラ言語を習得されるのが良いでしょう。
-* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、必ずしも実行速度がインタープリタ言語だから、コンパイラ言語だから、という基準で判断できないことも多いです。
+* プログラミング初学者はインタープリタ言語の一つをまず学んで、その後、分野や必要に応じてコンパイラ言語を学習されるのが良いでしょう。
+* 各プログラミング言語にはそれぞれ向き不向き、得意不得意な分野がありますので、翻訳タイプだけで言語の良し悪しを判断することはできません。
 
 
 # 2. Summary: What is computer programing?
