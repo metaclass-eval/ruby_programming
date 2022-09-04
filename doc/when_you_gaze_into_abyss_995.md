@@ -40,7 +40,7 @@ p Module.superclass       #=> Object
 ```
 
 * Object#class, Class#superclass, Module#ancestors, Module#included_modules are usuful methods for relfection. (以下のメソッドはリフレクションするのにとても便利だ: Object#class, Class#superclass, Module#ancestors, Module#included_modules。)
-* The first *self* given by Ruby God is the top-level object (main) that seems to govern th one instantizated world created by the God. (最初にRubyの神によって与えられる*self*は神が作り出した一つの実体世界のトップに君臨する（トップレベルを表すオブジェクトの）mainオブジェクトだ。)
+* The first *self* given by Ruby God is the top-level object (main) that seems to govern the one instantizated world created by the God. (最初にRubyの神によって与えられる*self*は神が作り出した一つの実体世界のトップに君臨する（トップレベルを表すオブジェクトの）mainオブジェクトだ。)
 * But interestingly, the *main* itself cannot be seen and we can know it only through the *self*. (しかし、面白いことにその実世界の覇者（のように見えるmainオブジェクト）を直接見ることはできず、必ず自分（selfオブジェクト）を通すことでしかその存在を知ることができない。)
 
 ## 2.  Hello, Ruby world!! (こんにちは、Rubyの世界)
